@@ -18,6 +18,7 @@
 		-->
 		<link href="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/bootstrap.min.css" rel="stylesheet">
 		<!--<link href="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/style.css" rel="stylesheet">-->
+		<link href="/application.css" rel="stylesheet">
 		<link href="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/lemmon-slider.css" rel="stylesheet">
 		
 		
