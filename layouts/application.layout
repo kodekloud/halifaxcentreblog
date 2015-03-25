@@ -137,7 +137,7 @@
         		<section class="footerCredits">
         			<div class="container">
         				<div id="footerImg">
-        					<a href="/posts"><img src="/javascripts/stvblog/img/spark_logo.png"></a>
+        					<a href="/posts"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/spark_logo.png"></a>
         				</div>
         				<div id="footerAbout">
         					<div id="footerTop">
