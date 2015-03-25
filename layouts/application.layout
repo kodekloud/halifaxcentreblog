@@ -17,15 +17,10 @@
 		<!-- <link rel="stylesheet" href="{{ "style.css" | get_image_url_by_name_and_site_id:site.id }}" type="text/css"/>
 		-->
 		<link href="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/bootstrap.min.css" rel="stylesheet">
-		<link href="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/style.css" rel="stylesheet">
+		<!--<link href="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/style.css" rel="stylesheet">-->
 		<link href="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/lemmon-slider.css" rel="stylesheet">
 		
-		<!--<link rel="stylesheet" href="/javascripts/stvblog/css/bootstrap.min.css" type="text/css"/>-->
-		<!--<link rel="stylesheet" href="/javascripts/stvblog/css/style.css" type="text/css"/>-->
-
-		<!-- lemmon slider variable width slider for images -->
-		<!--<link rel="stylesheet" href="/javascripts/stvblog/css/lemmon-slider.css" type="text/css" media="screen" />-->
-
+		
 		<!-- Icons ================ -->
 		<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
 		<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
