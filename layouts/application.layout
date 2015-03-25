@@ -129,7 +129,40 @@
 			</header>
 			<!-- close /.header -->  
             {{yield}}
-            
+            <!--close .container role="main-content" --> 
+		    
+		    <!--begin footer -->
+        	<footer id="footer" class="clearfix">		
+        		<!--change this to your stuff-->
+        		<section class="footerCredits">
+        			<div class="container">
+        				<div id="footerImg">
+        					<a href="/posts"><img src="/javascripts/stvblog/img/spark_logo.png"></a>
+        				</div>
+        				<div id="footerAbout">
+        					<div id="footerTop">
+        						<div id="footerSocial">
+        							<ul>
+        								<li><a href="https://twitter.com/StVitalCentre" target="_blank"><img src="/javascripts/stvblog/img/twitter.png"></a></li>
+        								<li><a href="http://www.pinterest.com/stvitalcentre" target="_blank"><img src="/javascripts/stvblog/img/pinter.png"></a></li>
+        								<li><a href="https://www.facebook.com/StVitalCentre" target="_blank"><img src="/javascripts/stvblog/img/facebook.png"></a></li>
+        							</ul>
+        						</div>
+        						<div id="footerLogo">
+        							<a href="/"><img src="/javascripts/stvblog/img/StVital_logo.png"></a>
+        						</div>
+        					</div>
+        					<div id="footerBottom">
+        						2014 ST. VITAL CENTRE BLOG / ALL RIGHTS RESERVED
+        					</div>
+        				</div>
+        			</div>
+        			<!--footerCredits container--> 
+        		</section>
+        		<!--close section--> 
+        	</footer>
+        	<!--/.footer--> 
+	
 			<!-- JS JQuery ================ --> 
 			<script src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/bootstrap.min.js"></script>
 			<script src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/lemmon-slider.min.js"></script>
