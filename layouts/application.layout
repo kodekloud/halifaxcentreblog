@@ -13,14 +13,11 @@
     <meta name="description" content="{{meta_description}}">
     <meta name="keywords" content="{{meta_keywords}}">
     <meta name="author" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
 
     <title>{{meta_title}}</title>
 
 		<!-- Meta Data ================ -->
-		<meta charset="UTF-8" />
-		<meta name="description" content="Fill this in with your information" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="apple-mobile-web-app-capable" content="yes" />
 
 		<!-- CSS ================ -->
 		<link href="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/bootstrap.min.css" rel="stylesheet">
