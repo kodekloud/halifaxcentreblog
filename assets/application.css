@@ -147,7 +147,7 @@ body.tall-logo nav.user {
 }
 #headerBottom{
     float: right;
-    border-top: 1px solid #57d68c;
+    border-top: 1px solid #ffffff;
 }
 #headerNav{
     float: left;
@@ -165,7 +165,7 @@ body.tall-logo nav.user {
     float: right;
     padding-top: 11px;
     padding-bottom: 2px;
-    border-left: 1px solid #57d68c;
+    border-left: 1px solid #ffffff;
 }
 
 #headerSocial{
