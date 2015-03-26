@@ -4,19 +4,19 @@
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="en" dir="ltr"> <![endif]-->
 <!--[if gt IE 8]><!--><html class="no-js" lang="en" dir="ltr"><!--<![endif]-->
 
-<head>
-	<!-- Meta Data ================ -->
-    <meta property="og:title" content="{{meta_title}}">
-    <meta property="og:description" content="{{meta_description}}">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{meta_description}}">
-    <meta name="keywords" content="{{meta_keywords}}">
-    <meta name="author" content="">
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-
-    <title>{{meta_title}}</title>
+    <head>
+    	<!-- Meta Data ================ -->
+        <meta property="og:title" content="{{meta_title}}">
+        <meta property="og:description" content="{{meta_description}}">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{meta_description}}">
+        <meta name="keywords" content="{{meta_keywords}}">
+        <meta name="author" content="">
+    	<meta name="apple-mobile-web-app-capable" content="yes" />
+    
+        <title>{{meta_title}}</title>
 
 
 		<!-- CSS ================ -->
@@ -58,6 +58,50 @@
         <!--MallMaverick v=0.3-->
         <script src="http://mallmaverick.kodekloud.io/mallmaverick.js?v=0.3"></script>
         <script src="http://mallmaverick.kodekloud.io/mustache_mallmaverick.js?v=0.3"></script>
+        
+        <script>
+            $(document).ready(function() {
+                $.reject({  
+                    reject: { all: false, msie: 9 },  
+                    header: 'Thanks for visiting 10 Dundas East', // Header Text  
+                    paragraph1: 'Unfortunately your browser is not officially supported with our site', // Paragraph 1  
+                    paragraph2: 'For the best experience please install one of the many optional browsers below to proceed',  
+                    closeMessage: 'You may continue using the site however certain features and content may not be accessible. Thank you.',
+                    closeCookie: true,
+                    browserInfo: { // Settings for which browsers to display  
+                        chrome: {  
+                            // Text below the icon  
+                            text: 'Google Chrome',  
+                            // URL For icon/text link  
+                            url: 'http://www.google.com/chrome/',  
+                            // (Optional) Use "allow" to customized when to show this option  
+                            // Example: to show chrome only for IE users  
+                            // allow: { all: false, msie: true }  
+                        },  
+                        firefox: {  
+                            text: 'Mozilla Firefox',  
+                            url: 'http://www.mozilla.com/firefox/'  
+                        },  
+                        safari: {  
+                            text: 'Safari',  
+                            url: 'http://www.apple.com/safari/download/'  
+                        },  
+                        opera: {  
+                            text: 'Opera',  
+                            url: 'http://www.opera.com/download/'  
+                        },  
+                        msie: {  
+                            text: 'Internet Explorer',  
+                            url: 'http://www.microsoft.com/windows/Internet-explorer/'  
+                        }  
+                    },// Message below close window link  
+                    imagePath: '//cdn.jsdelivr.net/jquery.jreject/1.0.2/images/'
+                });      
+            });
+            setEndPoint('http://10dundaseast.mallmaverick.com/api/v2/10dundaseast/all.json');
+            sessionStorage.setItem('primary_locale', 'en-CA');
+            sessionStorage.setItem('secondary_locale', 'fr-CA');
+        </script>
 	</head>
 	<body class="index">
 
