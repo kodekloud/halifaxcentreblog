@@ -7,7 +7,7 @@
 			    <script id="blog_item_template" type="x-tmpl-mustache">
 					<li> 
 						<a href="/posts/{{slug}}"> 
-							<img src="{{post.image_path}}" alt="" />
+							<img src="{{ image_url }}" alt="" />
 						</a> 
 						<div class="summary"> 
 							<a href="/posts/{{slug}}"> 
