@@ -5,6 +5,7 @@
 <!--[if gt IE 8]><!--><html class="no-js" lang="en" dir="ltr"><!--<![endif]-->
 
 <head>
+	<!-- Meta Data ================ -->
     <meta property="og:title" content="{{meta_title}}">
     <meta property="og:description" content="{{meta_description}}">
     <meta charset="utf-8">
@@ -17,7 +18,6 @@
 
     <title>{{meta_title}}</title>
 
-		<!-- Meta Data ================ -->
 
 		<!-- CSS ================ -->
 		<link href="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/bootstrap.min.css" rel="stylesheet">
