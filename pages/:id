@@ -147,3 +147,40 @@
 	</div>
 	<!--close .container id="main-content" --> 
 </div>
+
+<script>
+    $(document).ready(function() {
+        function renderPageData(){
+             var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            var blog_detail = getPostDetailsBySlug(slug);
+           // checkErrorPage(blog_detail);
+           
+            renderPostDetailTemplate('#blog_detail_template', '#blog_detail',blog_detail);
+            $('#loading').hide();
+            $('#page_content').fadeIn('fast');
+            
+            //change img url
+            $('.blog_detail_description img').attr('src',function(i,e){
+                return e.replace("/system","http://cdn.mallmaverick.com/system");
+            });
+        }
+        
+        loadMallData(renderPageData);
+    });
+    
+    function renderPostDetailTemplate(blog_template, blog_block, post){
+    
+        var item_list = [];
+        var blog_template_html = $(blog_template).html();
+        Mustache.parse(blog_template_html);   // optional, speeds up future uses
+    
+       
+        var blog_rendered = Mustache.render(blog_template_html,post);
+        item_list.push(blog_rendered);
+       
+
+        $(blog_block).html(item_list.join(''));
+    }
+
+</script>    
