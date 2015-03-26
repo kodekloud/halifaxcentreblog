@@ -54,6 +54,10 @@
 		
 		<!--Mustache is a client side templating engine https://github.com/janl/mustache.js/ -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+       
+        <!--jReject is used to warn users certain browsers aren't compatible with this site-->
+        <script src="//cdn.jsdelivr.net/jquery.jreject/1.0.2/js/jquery.reject.js"></script>
+        <link href="//cdn.jsdelivr.net/jquery.jreject/1.0.2/css/jquery.reject.css" rel="stylesheet" type="text/css">
         
         <!--MallMaverick v=0.3-->
         <script src="http://mallmaverick.kodekloud.io/mallmaverick.js?v=0.3"></script>
