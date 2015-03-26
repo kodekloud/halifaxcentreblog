@@ -94,6 +94,9 @@ $(document).ready(function() {
     function renderPageData(){
         console.log(getPostList())
         renderPostListTemplate('#blog_banner_template', '#blog_banner',getPostList());
+        renderPostListTemplate('#blog_banner_template', '#blog_banner',getPostList());
+        
+        main-content
         $('#loading').hide();
         $('#page_content').fadeIn('fast');
     }
