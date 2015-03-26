@@ -92,7 +92,7 @@
 $(document).ready(function() {
     function renderPageData(){
         console.log(getPostList())
-        renderPostListTemplate('#blog_item_template', '#blog_list',getPostList());
+        renderPostListTemplate('#blog_banner_template', '#blog_banner',getPostList());
         $('#loading').hide();
         $('#page_content').fadeIn('fast');
     }
