@@ -3,8 +3,8 @@
 	<!--begin slider -->
 	<div class="lemmon-wrap clearfix">
 		<div id="lemmon-slider" class="lemmon-slider">
-			<ul id="blog_list_banner">
-			    <script id="blog_item_template" type="x-tmpl-mustache">
+			<ul id="blog_banner">
+			    <script id="blog_banner_template" type="x-tmpl-mustache">
 					<li> 
 						<a href="/posts/{{slug}}"> 
 							<img src="{{ image_url }}" alt="" />
