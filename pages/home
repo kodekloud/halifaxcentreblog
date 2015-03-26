@@ -10,7 +10,7 @@
 							<img src="{{post.image_path}}" alt="" />
 						</a> 
 						<div class="summary"> 
-							<a href="/posts/{{post.slug}}"> 
+							<a href="/posts/{{slug}}"> 
 								<p>{{post.tag_list.first}}</p>
 	                       		<h3>{{ title }}</h3>
 							</a> 
