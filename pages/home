@@ -3,11 +3,8 @@
 	<!--begin slider -->
 	<div class="lemmon-wrap clearfix">
 		<div id="lemmon-slider" class="lemmon-slider">
-			<ul id="">
+			<ul id="blog_list">
 			    <script id="blog_item_template" type="x-tmpl-mustache">
-
-                </script>
-				{% for post in published_posts limit:10 %}
 					<li> 
 						<a href="/posts/{{post.slug}}"> 
 							<img src="{{post.image_path}}" alt="" />
@@ -19,7 +16,7 @@
 							</a> 
 						</div>
 					</li>
-				{% endfor %}
+                </script>
 			</ul>
 		</div>
 		<div class="controls"> <a href="#" class="prev-slide">Prev Page</a> <a href="#" class="next-slide">Next Page</a> </div>
