@@ -40,8 +40,8 @@
             						<img src="{{ image_url }}" class="aligncenter" alt="" />
             					</a>
             				</div>
-            				<div class="sparkNowTileTitle"><a href="/posts/{{post.slug}}"><h3>{{ title }}</h3></a></div>
-            				<a class="sparkNowTileRead" href="/posts/{{post.slug}}">READ</a>
+            				<div class="sparkNowTileTitle"><a href="/posts/{{slug}}"><h3>{{ title }}</h3></a></div>
+            				<a class="sparkNowTileRead" href="/posts/{{slug}}">READ</a>
             				{% if post.impression_count < 10 %}
             					<a class="sparkNowTileReadCount1" href="/posts/{{slug}}">{{ post.impression_count }}</a>
             				{% elsif post.impression_count < 20 %}
