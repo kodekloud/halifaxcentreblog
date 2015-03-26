@@ -3,7 +3,10 @@
 	<!--begin slider -->
 	<div class="lemmon-wrap clearfix">
 		<div id="lemmon-slider" class="lemmon-slider">
-			<ul>
+			<ul id="">
+			    <script id="blog_item_template" type="x-tmpl-mustache">
+
+                </script>
 				{% for post in published_posts limit:10 %}
 					<li> 
 						<a href="/posts/{{post.slug}}"> 
