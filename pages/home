@@ -34,9 +34,9 @@
             			<div class="span4 sparkNowTile">
             				<div class="sparkNowTileTop">
             					{% for tag in post.tag_list limit:1 %}
-            						<a href="/posts/{{post.slug}}" class="sparkNowTileTag">{{tag}}</a>
+            						<a href="/posts/{{slug}}" class="sparkNowTileTag">{{tag}}</a>
             	                {% endfor %}
-            					<a href="/posts/{{post.slug}}" class="sparkNowTileImg">
+            					<a href="/posts/{{slug}}" class="sparkNowTileImg">
             						<img src="{{post.image_path}}" class="aligncenter" alt="" />
             					</a>
             				</div>
