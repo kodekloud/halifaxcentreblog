@@ -94,12 +94,10 @@
 						</div>
 						<div id="headerBottom">
 							<ul id="headerNav">
-								<li><a href="/posts?tag=fashion">FASHION</a></li>
-								<li><a href="/posts?tag=beauty">BEAUTY</a></li>
-								<li><a href="/posts?tag=homedecor">HOME + DECOR</a></li>
-								<li><a href="/posts?tag=streetstyle">STREETSTYLE</a></li>
-								<li><a href="/posts?tag=food">FOOD</a></li>
-								<li><a href="/posts?tag=video">VIDEO</a></li>
+								<li><a href="/posts?tag=fashion">REDEVELOPMENT NEWS</a></li>
+								<li><a href="/posts?tag=beauty">STORE UPDATES</a></li>
+								<li><a href="/posts?tag=homedecor">MEDIA</a></li>
+								<li><a href="/posts?tag=streetstyle">RENDERINGS</a></li>
 							</ul>
 							<div id="headerSocialBox">
 								<div id="headerSocial">
