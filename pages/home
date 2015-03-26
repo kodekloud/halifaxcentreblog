@@ -37,7 +37,7 @@
             						<a href="/posts/{{slug}}" class="sparkNowTileTag">{{tag}}</a>
             	                {% endfor %}
             					<a href="/posts/{{slug}}" class="sparkNowTileImg">
-            						<img src="{{post.image_path}}" class="aligncenter" alt="" />
+            						<img src="{{ image_url }}" class="aligncenter" alt="" />
             					</a>
             				</div>
             				<div class="sparkNowTileTitle"><a href="/posts/{{post.slug}}"><h3>{{ title }}</h3></a></div>
