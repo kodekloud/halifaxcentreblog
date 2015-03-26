@@ -31,27 +31,27 @@
 			<h3 class="short_headline sparkNowTitle"><span><b>SPARKING</b>NOW</span></h3>
                 <div class="row-fluid equalHero equalHeights">
                     <script id="blog_tile_template" type="x-tmpl-mustache">
-							<div class="span4 sparkNowTile">
-								<div class="sparkNowTileTop">
-									{% for tag in post.tag_list limit:1 %}
-										<a href="/posts/{{post.slug}}" class="sparkNowTileTag">{{tag}}</a>
-					                {% endfor %}
-									<a href="/posts/{{post.slug}}" class="sparkNowTileImg">
-										<img src="{{post.image_path}}" class="aligncenter" alt="" />
-									</a>
-								</div>
-								<div class="sparkNowTileTitle"><a href="/posts/{{post.slug}}"><h3>{{ title }}</h3></a></div>
-								<a class="sparkNowTileRead" href="/posts/{{post.slug}}">READ</a>
-								{% if post.impression_count < 10 %}
-									<a class="sparkNowTileReadCount1" href="/posts/{{post.slug}}">{{ post.impression_count }}</a>
-								{% elsif post.impression_count < 20 %}
-									<a class="sparkNowTileReadCount2" href="/posts/{{post.slug}}">{{ post.impression_count }}</a>
-								{% elsif post.impression_count < 30 %}
-									<a class="sparkNowTileReadCount3" href="/posts/{{post.slug}}">{{ post.impression_count }}</a>
-								{% else %}
-									<a class="sparkNowTileReadCount4" href="/posts/{{post.slug}}">{{ post.impression_count }}</a>
-								{% endif %}
-							</div>
+            			<div class="span4 sparkNowTile">
+            				<div class="sparkNowTileTop">
+            					{% for tag in post.tag_list limit:1 %}
+            						<a href="/posts/{{post.slug}}" class="sparkNowTileTag">{{tag}}</a>
+            	                {% endfor %}
+            					<a href="/posts/{{post.slug}}" class="sparkNowTileImg">
+            						<img src="{{post.image_path}}" class="aligncenter" alt="" />
+            					</a>
+            				</div>
+            				<div class="sparkNowTileTitle"><a href="/posts/{{post.slug}}"><h3>{{ title }}</h3></a></div>
+            				<a class="sparkNowTileRead" href="/posts/{{post.slug}}">READ</a>
+            				{% if post.impression_count < 10 %}
+            					<a class="sparkNowTileReadCount1" href="/posts/{{post.slug}}">{{ post.impression_count }}</a>
+            				{% elsif post.impression_count < 20 %}
+            					<a class="sparkNowTileReadCount2" href="/posts/{{post.slug}}">{{ post.impression_count }}</a>
+            				{% elsif post.impression_count < 30 %}
+            					<a class="sparkNowTileReadCount3" href="/posts/{{post.slug}}">{{ post.impression_count }}</a>
+            				{% else %}
+            					<a class="sparkNowTileReadCount4" href="/posts/{{post.slug}}">{{ post.impression_count }}</a>
+            				{% endif %}
+            			</div>
 				    </script>
 				</div>
 	   		<div class="sparkNowMore">
