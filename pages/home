@@ -30,13 +30,6 @@
 		
 			<!-- begin equalHeights columns 3 -->
 			<h3 class="short_headline sparkNowTitle"><span><b>SPARKING</b>NOW</span></h3>
-				<div class="row-fluid">
-	    <div class="span3">ok</div>
-	    	    <div class="span3">ok</div>
-	    <div class="span3">ok</div>
-	    <div class="span3">ok</div>
-
-	</div>
                 <div class="row-fluid equalHero equalHeights" id="main-content">
                     <script id="blog_tile_template" type="x-tmpl-mustache">
             			<div class="span4 sparkNowTile">
