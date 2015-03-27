@@ -108,7 +108,6 @@ function renderPostListTemplate(blog_template, blog_block, post){
             val.tag_first = val.tag[0];
         }
         console.log(val);
-
     });
     item_list.sort(function(a, b){
         if(a.publish_date > b.publish_date) return -1;
