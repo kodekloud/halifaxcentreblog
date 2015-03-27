@@ -23,7 +23,13 @@
 		<!-- / .controls --> 
 	</div>
 	<!-- / end slider --> 
-	
+	<div class="row-fluid">
+	    <div class="span3">ok</div>
+	    	    <div class="span3">ok</div>
+	    <div class="span3">ok</div>
+	    <div class="span3">ok</div>
+
+	</div>
 	<!--notice how sliders are outside the this main content div-->
 	<div class="sparkNow">
 		<div class="container clearfix">		
