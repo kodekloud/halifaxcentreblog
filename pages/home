@@ -33,9 +33,7 @@
                     <script id="blog_tile_template" type="x-tmpl-mustache">
             			<div class="span4 sparkNowTile">
             				<div class="sparkNowTileTop">
-            					{% for tag in post.tag_list limit:1 %}
-            						<a href="/posts/{{slug}}" class="sparkNowTileTag">{{tag}}</a>
-            	                {% endfor %}
+            				    <a href="/posts/{{slug}}" class="sparkNowTileTag">{{tag}}</a>
             					<a href="/posts/{{slug}}" class="sparkNowTileImg">
             						<img src="{{ image_url }}" class="aligncenter" alt="" />
             					</a>
