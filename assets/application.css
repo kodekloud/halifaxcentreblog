@@ -2923,19 +2923,19 @@ h2,  h3 { page-break-after: avoid; }
     padding-left: 27px;
 }
 .sparkNowTileReadCount1{
-    background-image: url('/javascripts/stvblog/img/spark_icon_2filled.png');
+    background-image: url('http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/spark_icon_2filled.png');
 
 }
 .sparkNowTileReadCount2{
-    background-image: url('/javascripts/stvblog/img/spark_icon_4filled.png');
+    background-image: url('http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/spark_icon_4filled.png');
 
 }
 .sparkNowTileReadCount3{
-    background-image: url('/javascripts/stvblog/img/spark_icon_5filled.png');
+    background-image: url('http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/spark_icon_5filled.png');
 
 }
 .sparkNowTileReadCount4{
-    background-image: url('/javascripts/stvblog/img/spark_icon_6filled.png');
+    background-image: url('http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/spark_icon_6filled.png');
 
 }
 .sparkNowMore{
