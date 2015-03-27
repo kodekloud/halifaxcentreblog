@@ -109,8 +109,8 @@ function renderPostListTemplate(blog_template, blog_block, post){
         return 0;
     });
     $.each( item_list , function( key, val ) {
-            var blog_rendered = Mustache.render(blog_template_html,val);
-            item_rendered.push(blog_rendered);
+        var blog_rendered = Mustache.render(blog_template_html,val);
+        item_rendered.push(blog_rendered);
     });
     $(blog_block).html(item_rendered.join(''));
 }
