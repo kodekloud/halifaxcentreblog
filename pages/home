@@ -109,6 +109,15 @@ function renderPostListTemplate(blog_template, blog_block, post){
         if(val.tag.length != 0){
             val.tag_first = val.tag[0];
         }
+        if(val.impression_count < 10){
+            val.impression_tile_class = "sparkNowTileReadCount1";
+        }else if (val.impression_count < 20){
+            val.impression_tile_class = "sparkNowTileReadCount2";
+        }else if (val.impression_count < 20){
+            val.impression_tile_class = "sparkNowTileReadCount3";
+        }else{
+            val.impression_tile_class = "sparkNowTileReadCount4";
+        }
         console.log(val);
     });
     item_list.sort(function(a, b){
