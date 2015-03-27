@@ -113,7 +113,7 @@ function renderPostListTemplate(blog_template, blog_block, post){
             val.impression_tile_class = "sparkNowTileReadCount1";
         }else if (val.impression_count < 20){
             val.impression_tile_class = "sparkNowTileReadCount2";
-        }else if (val.impression_count < 20){
+        }else if (val.impression_count < 30){
             val.impression_tile_class = "sparkNowTileReadCount3";
         }else{
             val.impression_tile_class = "sparkNowTileReadCount4";
