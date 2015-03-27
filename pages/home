@@ -102,6 +102,7 @@ function renderPostListTemplate(blog_template, blog_block, post){
 
     $.each( post , function( key, val ) {
         item_list.push(val);
+        console.log(val);
     });
     item_list.sort(function(a, b){
         if(a.publish_date > b.publish_date) return -1;
