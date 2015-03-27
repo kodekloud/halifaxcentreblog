@@ -33,7 +33,7 @@
                 <div class="row-fluid equalHero equalHeights" id="main-content">
                     <script id="blog_tile_template" type="x-tmpl-mustache">
             			<div class="span4">
-
+    ok
             			</div>
 				    </script>
 				</div>
