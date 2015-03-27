@@ -34,9 +34,8 @@
             			<div class="span4 sparkNowTile">
             				<div class="sparkNowTileTop">
             				    {{#tag_first}}
+            				        <a href="/posts/{{slug}}" class="sparkNowTileTag">{{.}}</a>
                                 {{/tag_first}}
-
-            				    <a href="/posts/{{slug}}" class="sparkNowTileTag">{{tag_first}}</a>
             					<a href="/posts/{{slug}}" class="sparkNowTileImg">
             						<img src="{{ image_url }}" class="aligncenter" alt="" />
             					</a>
