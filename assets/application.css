@@ -2858,7 +2858,6 @@ h2,  h3 { page-break-after: avoid; }
 
     min-height: 388px !important;
     position: relative; 
-    clear: inherit;
 }
 .sparkNowTile:nth-of-type(3n+3){
     border-right: none;
