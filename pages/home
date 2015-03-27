@@ -105,7 +105,7 @@ function renderPostListTemplate(blog_template, blog_block, post){
     });
     $.each( item_list , function(key,val){
         if(val.tag.length != 0){
-            val["tag_first"] = val["tag"][0];
+            val.tag_first = val.tag[0];
         }
         console.log(val);
 
