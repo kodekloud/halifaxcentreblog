@@ -104,6 +104,10 @@ function renderPostListTemplate(blog_template, blog_block, post){
         item_list.push(val);
         console.log(val);
     });
+    $.each( item_list , function(key,val){
+        console.log(val);
+
+    });
     item_list.sort(function(a, b){
         if(a.publish_date > b.publish_date) return -1;
         if(a.publish_date < b.publish_date) return 1;
