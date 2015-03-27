@@ -33,6 +33,9 @@
                     <script id="blog_tile_template" type="x-tmpl-mustache">
             			<div class="span4 sparkNowTile">
             				<div class="sparkNowTileTop">
+            				    {{#tag_first}}
+                                {{/tag_first}}
+
             				    <a href="/posts/{{slug}}" class="sparkNowTileTag">{{tag_first}}</a>
             					<a href="/posts/{{slug}}" class="sparkNowTileImg">
             						<img src="{{ image_url }}" class="aligncenter" alt="" />
