@@ -42,15 +42,7 @@
             				</div>
             				<div class="sparkNowTileTitle"><a href="/posts/{{slug}}"><h3>{{ title }}</h3></a></div>
             				<a class="sparkNowTileRead" href="/posts/{{slug}}">READ</a>
-            				{% if post.impression_count < 10 %}
-            					<a class="{{impression_tile_class}}" href="/posts/{{slug}}">{{ impression_count }}</a>
-            				{% elsif post.impression_count < 20 %}
-            					<a class="sparkNowTileReadCount2" href="/posts/{{slug}}">{{ post.impression_count }}</a>
-            				{% elsif post.impression_count < 30 %}
-            					<a class="sparkNowTileReadCount3" href="/posts/{{slug}}">{{ post.impression_count }}</a>
-            				{% else %}
-            					<a class="sparkNowTileReadCount4" href="/posts/{{slug}}">{{ post.impression_count }}</a>
-            				{% endif %}
+            				<a class="{{impression_tile_class}}" href="/posts/{{slug}}">{{ impression_count }}</a>
             			</div>
 				    </script>
 				</div>
