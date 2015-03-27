@@ -2888,12 +2888,13 @@ h2,  h3 { page-break-after: avoid; }
 .sparkNowTileTitle{
     padding: 0px 4px;
     margin: 0px 0px 30px 0px;
+    overflow: hidden;
+    max-height: 170px;
 }
 .sparkNowTileTitle a{
     text-transform: uppercase; 
     text-decoration: none;
     letter-spacing: 2px;
-    overflow: hidden;
 }
 .sparkNowTileImg img{
     width: 100%;
