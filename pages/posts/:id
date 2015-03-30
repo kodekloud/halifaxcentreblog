@@ -36,7 +36,7 @@
     						<div class="video-container">
     							<iframe width="560" height="315" src="//www.youtube.com/embed/{{video_link}}" frameborder="0" allowfullscreen></iframe>
     						</div>
-    							<img src="{{image_url}}" />
+    						<img src="{{image_url}}" />
     						<h1>{{ title }}</h1>
     						<!-- AddThis Button BEGIN -->
     						<div class="addthis_toolbox addthis_default_style ">
