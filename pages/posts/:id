@@ -39,7 +39,7 @@
     						{% else %}
     							<img src="{{post.image_path}}" />
     						{% endif %}
-    						<h1>{{ post.title }}</h1>
+    						<h1>{{ title }}</h1>
     						<!-- AddThis Button BEGIN -->
     						<div class="addthis_toolbox addthis_default_style ">
     						<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
