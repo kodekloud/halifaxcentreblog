@@ -58,7 +58,8 @@
     					<!--end entry-header-->
     					<div class="entry-tags">
     						<p>TAGS</p>
-    						{{ }}
+            				    {{#tag}}
+            				    {{/tag}}
     						{% for tag in post.tag_list %}
     							{% if forloop.index0 == 0 %}
                                 	<a href="/posts?tag={{tag}}" rel="tag">{{tag}} </a>
