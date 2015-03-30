@@ -59,7 +59,7 @@
     					<div class="entry-tags">
     						<p>TAGS</p>
             				{{#tag}}
-                                <a href="/posts?tag={{tag}}" rel="tag">{{.}} /</a>
+                                <a href="/posts?tag={{tag}}" rel="tag">{{.}}</a><span> /</span>
             				{{/tag}}
     					</div>					
     				</article>
