@@ -3031,7 +3031,7 @@ h2,  h3 { page-break-after: avoid; }
 }
 .blog-detail-nav a:first-child{
     float: left;
-    background-image: url('/javascripts/stvblog/img/arrowblack_left.png');
+    background-image: url('http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/arrowblack_left.png');
     background-position: left;
     background-repeat: no-repeat;
     padding-left: 16px;
@@ -3039,7 +3039,7 @@ h2,  h3 { page-break-after: avoid; }
 }
 .blog-detail-nav a:nth-child(2){
     float: right;
-    background-image: url('/javascripts/stvblog/img/arrowblack_right.png');
+    background-image: url('http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/arrowblack_right.png');
     background-position: right;
     background-repeat: no-repeat;
     padding-right: 16px;
