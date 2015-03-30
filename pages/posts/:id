@@ -35,7 +35,7 @@
     					<header class="entry-header">
     						<div class="video-container" id="post_video">
     						    <img id="post_image" src="{{image_url}}" />
-    							<iframe width="560" height="315" src="//www.youtube.com/embed/{{video_link}}" frameborder="0" allowfullscreen></iframe>
+    				// 			<iframe width="560" height="315" src="//www.youtube.com/embed/{{video_link}}" frameborder="0" allowfullscreen></iframe>
     						</div>
     						<h1>{{ title }}</h1>
     						<!-- AddThis Button BEGIN -->
