@@ -224,6 +224,4 @@
         });
         $(blog_block).html(item_rendered.join(''));
     }
-
-
 </script>    
