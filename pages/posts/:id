@@ -59,15 +59,8 @@
     					<div class="entry-tags">
     						<p>TAGS</p>
             				{{#tag}}
-                                <a href="/posts?tag={{tag}}" rel="tag">{{.}} </a>
+                                <a href="/posts?tag={{tag}}" rel="tag">{{.}} /</a>
             				{{/tag}}
-    						{% for tag in post.tag_list %}
-    							{% if forloop.index0 == 0 %}
-                                	<a href="/posts?tag={{tag}}" rel="tag">{{tag}} </a>
-                                {% else %}
-                                    <a href="/posts?tag={{tag}}" rel="tag">/ {{tag}} </a>
-                                {% endif %}
-                            {% endfor %}
     					</div>					
     				</article>
     				<!--end entry-post -->
