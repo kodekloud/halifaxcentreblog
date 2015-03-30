@@ -33,9 +33,9 @@
     				</div>
     				<article class="entry-post">
     					<header class="entry-header">
-    							<div class="video-container">
-    								<iframe width="560" height="315" src="//www.youtube.com/embed/{{video_link}}" frameborder="0" allowfullscreen></iframe>
-    							</div>
+    						<div class="video-container">
+    							<iframe width="560" height="315" src="//www.youtube.com/embed/{{video_link}}" frameborder="0" allowfullscreen></iframe>
+    						</div>
     							<img src="{{image_url}}" />
     						<h1>{{ title }}</h1>
     						<!-- AddThis Button BEGIN -->
