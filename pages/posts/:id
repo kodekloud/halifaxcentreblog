@@ -155,7 +155,7 @@
            // checkErrorPage(blog_detail);
            
            var publish_date = new Date(blog_detail.publish_date);
-            console.log(publish_date.getDay());
+            console.log(blog_detail.publish_date);
             
             var month_names_short = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
             blog_detail.publish_date_month = month_names_short[publish_date.getMonth()]
