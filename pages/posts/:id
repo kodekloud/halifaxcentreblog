@@ -39,7 +39,7 @@
     								<iframe width="560" height="315" src="//www.youtube.com/embed/{{post.video_link}}" frameborder="0" allowfullscreen></iframe>
     							</div>
     						{% else %}
-    							<img src="{{post.image_path}}" />
+    							<img src="{{image_path}}" />
     						{% endif %}
     						<h1>{{ title }}</h1>
     						<!-- AddThis Button BEGIN -->
