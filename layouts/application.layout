@@ -102,7 +102,7 @@
                     imagePath: '//cdn.jsdelivr.net/jquery.jreject/1.0.2/images/'
                 });      
             });
-            
+
             setEndPoint('http://londonderry.mallmaverick.com/api/v2/londonderry/all.json');
             // setEndPoint('http://halifaxcentre.mallmaverick.com/api/v2/halifaxcentre/all.json');
             sessionStorage.setItem('primary_locale', 'en-CA');
