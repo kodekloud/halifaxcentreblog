@@ -156,7 +156,7 @@
            
             console.log(blog_detail);
             blog_detail["publish_date_month"] = "Mar"
-            blog_detail["publish_date_day"] = 20
+            blog_detail.publish_date_day = 20
 
             renderPostDetailTemplate('#blog_detail_template', '#page',blog_detail);
             // $('#loading').hide();
