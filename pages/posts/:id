@@ -33,13 +33,10 @@
     				</div>
     				<article class="entry-post">
     					<header class="entry-header">
-    						{% if post.video_link != blank %}
     							<div class="video-container">
-    								<iframe width="560" height="315" src="//www.youtube.com/embed/{{post.video_link}}" frameborder="0" allowfullscreen></iframe>
+    								<iframe width="560" height="315" src="//www.youtube.com/embed/{{video_link}}" frameborder="0" allowfullscreen></iframe>
     							</div>
-    						{% else %}
     							<img src="{{image_url}}" />
-    						{% endif %}
     						<h1>{{ title }}</h1>
     						<!-- AddThis Button BEGIN -->
     						<div class="addthis_toolbox addthis_default_style ">
