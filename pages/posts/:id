@@ -156,7 +156,7 @@
            
             console.log(blog_detail);
             blog_detail["publish_date_month"]
-            blog_detail["publish_date_month"]
+            blog_detail["publish_date_day"]
 
             renderPostDetailTemplate('#blog_detail_template', '#page',blog_detail);
             // $('#loading').hide();
