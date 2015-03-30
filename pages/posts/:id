@@ -15,7 +15,7 @@
     					<ul class="blogposts">
     						<li>
     							<span class="date"> 
-    							<span class="month">{{ publish_date | date: "%b"}}</span>
+    							<span class="month">{{ publish_date }}</span>
     							<span class="day"><b>{{ publish_date | date: "%-d"}}</b></span>
     							<span class="year">{{ publish_date | date: "%Y"}}</span>
     							</span>
