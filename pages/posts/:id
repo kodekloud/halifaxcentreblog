@@ -15,9 +15,9 @@
     					<ul class="blogposts">
     						<li>
     							<span class="date"> 
-        							<span class="month">{{ publish_date }}</span>
-        							<span class="day"><b>{{ publish_date | date: "%-d"}}</b></span>
-        							<span class="year">{{ publish_date | date: "%Y"}}</span>
+        							<span class="month">Jan</span>
+        							<span class="day"><b>01</b></span>
+        							<span class="year">2014</span>
     							</span>
     						</li>
     						<li><a href="https://www.facebook.com/StVitalCentre" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/facebook.png"></a></li>
