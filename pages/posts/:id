@@ -176,7 +176,7 @@
     function renderPostDetailTemplate(blog_detail_template, page, post){
     
         var item_list = [];
-        var blog_template_html = $(blog_template).html();
+        var blog_template_html = $(blog_detail_template).html();
         Mustache.parse(blog_template_html);   // optional, speeds up future uses
     
        
