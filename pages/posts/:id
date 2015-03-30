@@ -158,6 +158,7 @@
             var blog_detail = getPostDetailsBySlug(slug);
            // checkErrorPage(blog_detail);
            
+           console.log(blog_detail);
             renderPostDetailTemplate('#blog_detail_template', '#blog_detail',blog_detail);
             // $('#loading').hide();
             // $('#page_content').fadeIn('fast');
