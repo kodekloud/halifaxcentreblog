@@ -158,7 +158,7 @@
             console.log(publish_date.getMonth());
             
             var month_names_short = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-            blog_detail.publish_date_month = month_names_short[blog_detail.publish_date.getMonth()]
+            blog_detail.publish_date_month = month_names_short[publish_date.getMonth()]
             blog_detail.publish_date_day = blog_detail.publish_date
 
             renderPostDetailTemplate('#blog_detail_template', '#page',blog_detail);
