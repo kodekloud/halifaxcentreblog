@@ -154,6 +154,7 @@
             var blog_detail = getPostDetailsBySlug(slug);
            // checkErrorPage(blog_detail);
            
+           var publish_date = new Date(blog_detail.publish_date);
             console.log(blog_detail.publish_date.getMonth());
             
             var month_names_short = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
