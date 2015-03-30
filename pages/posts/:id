@@ -173,7 +173,7 @@
         loadMallData(renderPageData);
     });
     
-    function renderPostDetailTemplate(blog_detail_template, page, post){
+    function renderPostDetailTemplate(blog_detail_template, blog_block, post){
     
         var item_list = [];
         var blog_template_html = $(blog_detail_template).html();
