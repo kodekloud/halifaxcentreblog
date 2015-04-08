@@ -82,9 +82,6 @@ function renderPostListTemplate(blog_template, blog_block, post){
     $.each( item_list , function( key, val ) {
         var blog_rendered = Mustache.render(blog_template_html,val);
         item_rendered.push(blog_rendered);
-        
-        console.log(item_list);
-
     });
     $(blog_block).html(item_rendered.join(''));
 }
