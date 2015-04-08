@@ -94,10 +94,14 @@
     								<ul class="blogposts clearfix">
     									<!--required class-->
     									{% for post in published_posts limit:10 %}
-                                        <li> <span class="date"> <span class="month">{{ post.publish_date | date: "%b"}}</span> <span class="day" style="font-size:11.43px;"><b>{{ post.publish_date | date: "%-d"}}</b></span> <span class="year">{{ post.publish_date | date: "%Y"}}</span> </span>
+                                        <li> 
+                                            <span class="date"> 
+                                                <span class="month">{{ post.publish_date | date: "%b"}}</span> 
+                                                <span class="day" style="font-size:11.43px;"><b>{{ post.publish_date | date: "%-d"}}</b></span> 
+                                                <span class="year">{{ post.publish_date | date: "%Y"}}</span> 
+                                            </span>
     										<h3><a href="/posts/{{post.slug}}" title="{{ post.title }}">{{ post.title }}</a></h3>
     										<p></p>
-    										</a>
     									</li>
                                     	{% endfor %}
     								</ul>
@@ -108,7 +112,6 @@
     					<!--close .sidebar-tabs--> 
     				</aside>
     				<!-- close .widget containing blog tabs-->
-    
     			</section>
     			<!--close section sidebar span3--> 
     		</div>
@@ -144,7 +147,7 @@
     	</div>
     	<!--close .container id="main-content" --> 
 	</script>
-
+</div>
 <script>
     $(document).ready(function() {
         function renderPageData(){
