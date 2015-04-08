@@ -239,7 +239,7 @@
 
 
         var blog_rendered = Mustache.render(blog_template_html,post);
-        item_list.push(blog_rendered);
-        $(blog_block).html(item_list.join(''));
+        item_rendered.push(blog_rendered);
+        $(blog_block).html(item_rendered.join(''));
     }
 </script>    
