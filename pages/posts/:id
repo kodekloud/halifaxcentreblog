@@ -189,24 +189,6 @@
         var item_rendered = [];
         var blog_template_html = $(blog_template).html();
         Mustache.parse(blog_template_html);   // optional, speeds up future uses
-    
-
-        // $.each( item_list , function(key,val){
-        //     if(val.tag.length != 0){
-        //         val.tag_first = val.tag[0];
-        //     }
-        //     if(val.impression_count < 20){
-        //         val.impression_tile_class = "sparkNowTileReadCount1";
-        //     }else if (val.impression_count < 50){
-        //         val.impression_tile_class = "sparkNowTileReadCount2";
-        //     }else if (val.impression_count < 100){
-        //         val.impression_tile_class = "sparkNowTileReadCount3";
-        //     }else{
-        //         val.impression_tile_class = "sparkNowTileReadCount4";
-        //     }
-        //     console.log(val);
-        // });
-
 
         $.each( post, function( index, value ) {
             // MAX # IS 10
@@ -226,14 +208,8 @@
             if(a.publish_date < b.publish_date) return 1;
             return 0;
         });
-
-        // $.each( item_list , function( key, val ) {
-        //     var blog_rendered = Mustache.render(blog_template_html,val);
-        //     item_rendered.push(blog_rendered);
-        // });
-
         console.log(blog_template_html);
-        // $(blog_block).html(item_rendered.join(''));
+
 
 
         var blog_rendered = Mustache.render(blog_template_html,item_list);
