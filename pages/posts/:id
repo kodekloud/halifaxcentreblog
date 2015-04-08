@@ -213,7 +213,7 @@
 
         $.each( posts, function( index, value ) {
             // MAX # IS 3
-            if (index >= 3) {return false;};
+            // if (index >= 3) {return false;};
 
             if(value.tag.length != 0){
                 value.tag_first = value.tag[0];
