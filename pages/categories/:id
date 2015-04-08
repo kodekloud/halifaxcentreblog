@@ -56,7 +56,7 @@ function renderPostListTemplate(blog_template, blog_block, post){
     var item_rendered = [];
     var blog_template_html = $(blog_template).html();
     Mustache.parse(blog_template_html);   // optional, speeds up future uses
-
+console.log(item_list);
     $.each( post , function( key, val ) {
         item_list.push(val);
     });
