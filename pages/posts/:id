@@ -1,7 +1,5 @@
 <!-- begin #page - the container for everything but header -->
 <div id="page">
-</div>
-
     <script id="blog_detail_template" type="x-tmpl-mustache">
     	<div class="container visible-phone">
     		<p class="right"><a class="btn btn-primary scrollto" href="#secondary-nav">Blog Menu &nbsp;<i class="icon-align-justify"></i></a></p>
