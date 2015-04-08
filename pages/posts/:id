@@ -94,18 +94,17 @@
                         <div class="panels">
                             <div id="tab-latest">
                                 <ul class="blogposts clearfix">
-                                    <!--required class-->
-                                    {% for post in published_posts limit:10 %}
+                                    {{#}}
                                     <li> 
                                         <span class="date"> 
                                             <span class="month">{{ post.publish_date | date: "%b"}}</span> 
                                             <span class="day" style="font-size:11.43px;"><b>{{ post.publish_date | date: "%-d"}}</b></span> 
                                             <span class="year">{{ post.publish_date | date: "%Y"}}</span> 
                                         </span>
-                                        <h3><a href="/posts/{{post.slug}}" title="{{ post.title }}">{{ post.title }}</a></h3>
+                                        <h3><a href="/posts/{{post.slug}}" title="{{ title }}">{{ title }}</a></h3>
                                         <p></p>
                                     </li>
-                                    {% endfor %}
+                                    {{/}}
                                 </ul>
                             </div>
                         </div>
@@ -156,9 +155,9 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var blog_detail = getPostDetailsBySlug(slug);
-           // checkErrorPage(blog_detail);
+            // checkErrorPage(blog_detail);
            
-           var publish_date = new Date(blog_detail.publish_date);
+            var publish_date = new Date(blog_detail.publish_date);
             console.log(blog_detail.publish_date);
             
             var month_names_short = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
