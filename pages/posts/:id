@@ -219,7 +219,7 @@
                 value.tag_first = value.tag[0];
             }
 
-            console.log($(value.tag).filter(current_post.tag));
+            console.log($(value.tag).filter(current_post.tag).length);
             item_list.push(value);
         });
 
