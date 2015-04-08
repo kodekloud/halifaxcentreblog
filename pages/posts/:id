@@ -220,7 +220,7 @@
             value.publish_date_month = month_names_short[publish_date.getMonth()]
             value.publish_date_day = publish_date.getDate()
 
-            item_list.push(val);
+            item_list.push(value);
         });
 
         item_list.sort(function(a, b){
