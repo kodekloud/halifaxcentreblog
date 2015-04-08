@@ -151,7 +151,7 @@
             renderPostDetailTemplate('#blog_detail_template_1', '#blog_detail_container_1',blog_detail);
             renderPostDetailTemplate('#blog_detail_template_2', '#blog_detail_container_2',blog_detail);
             renderPostListTemplate('#blog_detail_template_3', '#blog_detail_container_3',getPostList());
-            renderPostRelatedTemplate('#blog_detail_template_4', '#blog_detail_container_4',getPostList());
+            renderPostRelatedTemplate('#blog_detail_template_4', '#blog_detail_container_4',getPostList(),blog_detail);
             // $('#loading').hide();
             // $('#page_content').fadeIn('fast');
             
@@ -205,18 +205,21 @@
         $(blog_block).html(blog_rendered);
     }
 
-    function renderPostRelatedTemplate(blog_template, blog_block, post){
+    function renderPostRelatedTemplate(blog_template, blog_block, posts, current_post){
         var item_list = [];
         var item_rendered = [];
         var blog_template_html = $(blog_template).html();
         Mustache.parse(blog_template_html);   // optional, speeds up future uses
 
-        $.each( post, function( index, value ) {
+        $.each( posts, function( index, value ) {
+            // MAX # IS 3
+            if (index >= 3) {return false;};
+
             if(value.tag.length != 0){
                 value.tag_first = value.tag[0];
             }
-            // MAX # IS 3
-            if (index >= 3) {return false;};
+
+            console.log($(value.tag).filter(current_post.tag));
             item_list.push(value);
         });
 
