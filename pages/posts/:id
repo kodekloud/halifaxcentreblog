@@ -238,7 +238,7 @@
         // $(blog_block).html(item_rendered.join(''));
 
 
-        var blog_rendered = Mustache.render(blog_template_html,post);
+        var blog_rendered = Mustache.render(blog_template_html,item_list);
         item_rendered.push(blog_rendered);
         $(blog_block).html(item_rendered.join(''));
     }
