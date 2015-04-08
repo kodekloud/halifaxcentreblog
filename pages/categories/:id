@@ -78,7 +78,7 @@
 $(document).ready(function() {
     function renderPageData(){
         var pathArray = window.location.pathname.split( '/' );
-        var slug = pathArray[pathArray.length-1];
+        var category = pathArray[pathArray.length-1];
         var blog_detail = getPostDetailsBySlug(slug);
             
         renderPostListTemplate('#blog_tile_template', '#main-content',getPostList());
