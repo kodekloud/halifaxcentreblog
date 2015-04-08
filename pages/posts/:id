@@ -164,7 +164,7 @@
             blog_detail.publish_date_day = publish_date.getDate()
 
             renderPostDetailTemplate('#blog_detail_template', '#page',blog_detail);
-            renderPostListTemplate('#blog_tile_template', '#main-content',getPostList())；
+            // renderPostListTemplate('#blog_tile_template', '#main-content',getPostList())；
             // $('#loading').hide();
             // $('#page_content').fadeIn('fast');
             
