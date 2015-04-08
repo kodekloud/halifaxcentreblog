@@ -239,7 +239,6 @@
 
 
         var blog_rendered = Mustache.render(blog_template_html,item_list);
-        item_rendered.push(blog_rendered);
-        $(blog_block).html(item_rendered.join(''));
+        $(blog_block).html(blog_rendered);
     }
 </script>    
