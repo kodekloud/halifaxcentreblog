@@ -213,6 +213,9 @@
 
 
         $.each( post, function( index, value ) {
+            // MAX # IS 10
+            if (index>=3) {break;};
+
             var publish_date = new Date(value.publish_date);
             
             var month_names_short = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
