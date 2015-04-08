@@ -86,7 +86,7 @@
             </script>
         </div>
         <!-- close span9 blog-detail primary-column-->
-        <section class="span3 sidebar secondary-column" id="secondary-nav blog_list_container">
+        <section class="span3 sidebar secondary-column" id="secondary-nav">
             <script id="blog_list_template" type="x-tmpl-mustache">
                 <aside class="widget">
                     <h5 class="short_headline"><span><b>LATEST</b>POSTS</span></h5>
@@ -165,7 +165,7 @@
             blog_detail.publish_date_day = publish_date.getDate()
 
             renderPostDetailTemplate('#blog_detail_template', '#blog_detail_container',blog_detail);
-            renderPostListTemplate('#blog_list_template', '#blog_list_container',getPostList());
+            renderPostListTemplate('#blog_list_template', '#secondary-nav',getPostList());
             // $('#loading').hide();
             // $('#page_content').fadeIn('fast');
             
