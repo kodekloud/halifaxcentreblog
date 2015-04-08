@@ -97,9 +97,8 @@
                                 {{#.}}
                                     <li> 
                                         <span class="date"> 
-                                            <span class="month">{{ post.publish_date | date: "%b"}}</span> 
-                                            <span class="day" style="font-size:11.43px;"><b>{{ post.publish_date | date: "%-d"}}</b></span> 
-                                            <span class="year">{{ post.publish_date | date: "%Y"}}</span> 
+                                            <span class="month">{{publish_date_month}}</span> 
+                                            <span class="day" style="font-size:11.43px;"><b>{{publish_date_day}}</b></span> 
                                         </span>
                                         <h3><a href="/posts/{{slug}}" title="{{ title }}">{{ title }}</a></h3>
                                         <p></p>
