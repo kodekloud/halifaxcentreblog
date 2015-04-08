@@ -108,38 +108,37 @@
             </section>
         </div>
     </div>
-    <!--close row-fluid--> 
-        {% if related_posts != nil and related_posts != empty %}
-        <div class="row-fluid">
-            <div class="span10 offset1 entry-related">
-                <h4 class="short_headline"><span><b>Related</b>Stories</span></h4>
-                {% for post in related_posts limit:3 %}
-                    {% capture thecycle %}{% cycle 'one', 'two', 'three' %}{% endcapture %}
-                    {% if thecycle == 'one' %}
-                        <div class="row-fluid equalHero equalHeights">
-                    {% endif %}
-                            <div class="span4 sparkNowTile">
-                                <div class="sparkNowTileTop">
-                                    {% for tag in post.tag_list limit:1 %}
-                                        <a href="/posts/{{post.slug}}" class="sparkNowTileTag">{{tag}}</a>
-                                    {% endfor %}
-                                    <a href="/posts/{{post.slug}}" class="sparkNowTileImg">
-                                        <img src="{{post.image_path}}" class="aligncenter" alt="" />
-                                    </a>
-                                </div>
-                                <div class="sparkNowTileTitle"><a href="/posts/{{post.slug}}"><h3>{{ post.title }}</h3></a></div>
+
+    {% if related_posts != nil and related_posts != empty %}
+    <div class="row-fluid">
+        <div class="span10 offset1 entry-related">
+            <h4 class="short_headline"><span><b>Related</b>Stories</span></h4>
+            {% for post in related_posts limit:3 %}
+                {% capture thecycle %}{% cycle 'one', 'two', 'three' %}{% endcapture %}
+                {% if thecycle == 'one' %}
+                    <div class="row-fluid equalHero equalHeights">
+                {% endif %}
+                        <div class="span4 sparkNowTile">
+                            <div class="sparkNowTileTop">
+                                {% for tag in post.tag_list limit:1 %}
+                                    <a href="/posts/{{post.slug}}" class="sparkNowTileTag">{{tag}}</a>
+                                {% endfor %}
+                                <a href="/posts/{{post.slug}}" class="sparkNowTileImg">
+                                    <img src="{{post.image_path}}" class="aligncenter" alt="" />
+                                </a>
                             </div>
-                    {% if thecycle == 'three' or forloop.last %}
+                            <div class="sparkNowTileTitle"><a href="/posts/{{post.slug}}"><h3>{{ post.title }}</h3></a></div>
                         </div>
-                    {% endif %}
-                {% endfor %}
-            </div>
+                {% if thecycle == 'three' or forloop.last %}
+                    </div>
+                {% endif %}
+            {% endfor %}
         </div>
-        {% endif %}
-        <!--close entry-related-->
     </div>
-    <!--close .container id="main-content" --> 
+    {% endif %}
 </div>
+
+
 <script>
     $(document).ready(function() {
         function renderPageData(){
@@ -205,9 +204,6 @@
             if(a.publish_date < b.publish_date) return 1;
             return 0;
         });
-        console.log(blog_template_html);
-
-
 
         var blog_rendered = Mustache.render(blog_template_html,item_list);
         $(blog_block).html(blog_rendered);
