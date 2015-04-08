@@ -1,0 +1,129 @@
+<!-- begin #page - the container for everything but header -->
+<div id="page">	
+	<!--begin slider -->
+	<div class="lemmon-wrap clearfix">
+		<div id="lemmon-slider" class="lemmon-slider">
+			<ul id="blog_banner">
+		    </ul>
+			    <script id="blog_banner_template" type="x-tmpl-mustache">
+					<li> 
+						<a href="/posts/{{slug}}"> 
+							<img src="{{ image_url }}" alt="" />
+						</a> 
+						<div class="summary"> 
+							<a href="/posts/{{slug}}"> 
+								<p>{{ tag_list }}</p>
+	                       		<h3>{{ title }}</h3>
+							</a> 
+						</div>
+					</li>
+                </script>
+		</div>
+		<div class="controls"> <a href="#" class="prev-slide">Prev Page</a> <a href="#" class="next-slide">Next Page</a> </div>
+		<!-- / .controls --> 
+	</div>
+	<!-- / end slider --> 
+
+	<!--notice how sliders are outside the this main content div-->
+	<div class="sparkNow">
+		<div class="container clearfix">	
+		
+			<!-- begin equalHeights columns 3 -->
+			<h3 class="short_headline sparkNowTitle"><span><b>SPARKING</b>NOW</span></h3>
+                <div class="row-fluid equalHero equalHeights" id="main-content">
+                    <script id="blog_tile_template" type="x-tmpl-mustache">
+            			<div class="span4 sparkNowTile">
+            				<div class="sparkNowTileTop">
+            				    {{#tag_first}}
+            				        <a href="/posts/{{slug}}" class="sparkNowTileTag">{{.}}</a>
+                                {{/tag_first}}
+            					<a href="/posts/{{slug}}" class="sparkNowTileImg">
+            						<img src="{{ image_url }}" class="aligncenter" alt="" />
+            					</a>
+            				</div>
+            				<div class="sparkNowTileTitle"><a href="/posts/{{slug}}"><h3>{{ title }}</h3></a></div>
+            				<a class="sparkNowTileRead" href="/posts/{{slug}}">READ</a>
+            				<a class="{{impression_tile_class}}" href="/posts/{{slug}}">{{ impression_count }}</a>
+            			</div>
+				    </script>
+				</div>
+	   		<div class="sparkNowMore">
+				<a href="/posts?tag=video">SEE MORE</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- SPARKVIDEO -->
+	<div class="sparkVideo">
+		<div class="container clearfix row-fluid"> 
+			<h3 class="short_headline sparkVideoTitle"><span><b>SPARK</b>VIDEO</span></h3>
+			{% for post in published_video_posts limit:1 %}
+				<div class="video-container">
+					<iframe width="560" height="315" src="//www.youtube.com/embed/{{post.video_link}}" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<a href="/posts/{{post.slug}}" class="sparkVideoPostTitle"><h1>{{ post.title }}</h1></a>
+				{{ post.body }}
+				<a class="sparkVideoRead" href="/posts/{{post.slug}}">READ</a>
+			{% endfor %}	
+			<div class="sparkVideoMore">
+				<a href="/posts?tag=video">SEE MORE</a>
+			</div>	
+		</div>
+	</div> 
+</div>
+
+
+
+<script>
+$(document).ready(function() {
+    function renderPageData(){
+        console.log(getPostList())
+        renderPostListTemplate('#blog_banner_template', '#blog_banner',getPostList());
+        renderPostListTemplate('#blog_tile_template', '#main-content',getPostList());
+        
+        // $('#loading').hide();
+        // $('#page_content').fadeIn('fast');
+    }
+    
+    loadMallData(renderPageData);
+});
+
+function renderPostListTemplate(blog_template, blog_block, post){
+
+    var item_list = [];
+    var item_rendered = [];
+    var blog_template_html = $(blog_template).html();
+    Mustache.parse(blog_template_html);   // optional, speeds up future uses
+
+    $.each( post , function( key, val ) {
+        item_list.push(val);
+    });
+    $.each( item_list , function(key,val){
+        if(val.tag.length != 0){
+            val.tag_first = val.tag[0];
+        }
+        if(val.impression_count < 20){
+            val.impression_tile_class = "sparkNowTileReadCount1";
+        }else if (val.impression_count < 50){
+            val.impression_tile_class = "sparkNowTileReadCount2";
+        }else if (val.impression_count < 100){
+            val.impression_tile_class = "sparkNowTileReadCount3";
+        }else{
+            val.impression_tile_class = "sparkNowTileReadCount4";
+        }
+        console.log(val);
+    });
+    item_list.sort(function(a, b){
+        if(a.publish_date > b.publish_date) return -1;
+        if(a.publish_date < b.publish_date) return 1;
+        return 0;
+    });
+    $.each( item_list , function( key, val ) {
+        var blog_rendered = Mustache.render(blog_template_html,val);
+        item_rendered.push(blog_rendered);
+    });
+    $(blog_block).html(item_rendered.join(''));
+}
+
+
+</script>
