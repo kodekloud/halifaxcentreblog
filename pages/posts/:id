@@ -89,12 +89,12 @@
         <section class="span3 sidebar secondary-column" id="secondary-nav">
             <aside class="widget">
                 <h5 class="short_headline"><span><b>LATEST</b>POSTS</span></h5>
-                <div class="sidebar-tabs">
+                <div class="sidebar-tabs" id="blog_list_container">
+                    <script id="blog_list_template" type="x-tmpl-mustache">
                     <div class="panels">
                         <div id="tab-latest">
-                            <ul class="blogposts clearfix" id="blog_list_container">
-                                <script id="blog_list_template" type="x-tmpl-mustache">
-                                    {{#}}
+                            <ul class="blogposts clearfix">
+                                {{#}}
                                     <li> 
                                         <span class="date"> 
                                             // <span class="month">{{ post.publish_date | date: "%b"}}</span> 
@@ -104,12 +104,12 @@
                                         <h3><a href="/posts/{{slug}}" title="{{ title }}">{{ . }}</a></h3>
                                         <p></p>
                                     </li>
-                                    {{/}}
-                                </script>
+                                {{/}}
                             </ul>
                         </div>
                     </div>
                     <!--close .panels (all of them)--> 
+                    </script>
                 </div>
                 <!--close .sidebar-tabs--> 
             </aside>
