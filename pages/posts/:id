@@ -94,7 +94,7 @@
                     <div class="panels">
                         <div id="tab-latest">
                             <ul class="blogposts clearfix">
-                                {{#}}
+                                {{#.}}
                                     <li> 
                                         <span class="date"> 
                                             <span class="month">{{ post.publish_date | date: "%b"}}</span> 
@@ -104,7 +104,7 @@
                                         <h3><a href="/posts/{{slug}}" title="{{ title }}">{{ title }}</a></h3>
                                         <p></p>
                                     </li>
-                                {{/}}
+                                {{/.}}
                             </ul>
                         </div>
                     </div>
