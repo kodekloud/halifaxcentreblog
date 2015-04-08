@@ -101,7 +101,7 @@
                                             // <span class="day" style="font-size:11.43px;"><b>{{ post.publish_date | date: "%-d"}}</b></span> 
                                             // <span class="year">{{ post.publish_date | date: "%Y"}}</span> 
                                         </span>
-                                        <h3><a href="/posts/{{post.slug}}" title="{{ title }}">{{ title }}</a></h3>
+                                        <h3><a href="/posts/{{slug}}" title="{{ title }}">{{ . }}</a></h3>
                                         <p></p>
                                     </li>
                                     {{/}}
