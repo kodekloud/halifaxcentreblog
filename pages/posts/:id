@@ -97,9 +97,9 @@
                                 {{#}}
                                     <li> 
                                         <span class="date"> 
-                                            // <span class="month">{{ post.publish_date | date: "%b"}}</span> 
-                                            // <span class="day" style="font-size:11.43px;"><b>{{ post.publish_date | date: "%-d"}}</b></span> 
-                                            // <span class="year">{{ post.publish_date | date: "%Y"}}</span> 
+                                            <span class="month">{{ post.publish_date | date: "%b"}}</span> 
+                                            <span class="day" style="font-size:11.43px;"><b>{{ post.publish_date | date: "%-d"}}</b></span> 
+                                            <span class="year">{{ post.publish_date | date: "%Y"}}</span> 
                                         </span>
                                         <h3><a href="/posts/{{slug}}" title="{{ title }}">{{ title }}</a></h3>
                                         <p></p>
@@ -158,7 +158,6 @@
             // checkErrorPage(blog_detail);
            
             var publish_date = new Date(blog_detail.publish_date);
-            console.log(blog_detail.publish_date);
             
             var month_names_short = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
             blog_detail.publish_date_month = month_names_short[publish_date.getMonth()]
@@ -196,9 +195,7 @@
         var blog_template_html = $(blog_template).html();
         Mustache.parse(blog_template_html);   // optional, speeds up future uses
     
-        $.each( post , function( key, val ) {
-            item_list.push(val);
-        });
+
         // $.each( item_list , function(key,val){
         //     if(val.tag.length != 0){
         //         val.tag_first = val.tag[0];
@@ -214,11 +211,24 @@
         //     }
         //     console.log(val);
         // });
+
+
+        $.each( post, function( index, value ) {
+            var publish_date = new Date(value.publish_date);
+            
+            var month_names_short = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+            value.publish_date_month = month_names_short[publish_date.getMonth()]
+            value.publish_date_day = publish_date.getDate()
+
+            item_list.push(val);
+        });
+
         item_list.sort(function(a, b){
             if(a.publish_date > b.publish_date) return -1;
             if(a.publish_date < b.publish_date) return 1;
             return 0;
         });
+
         // $.each( item_list , function( key, val ) {
         //     var blog_rendered = Mustache.render(blog_template_html,val);
         //     item_rendered.push(blog_rendered);
