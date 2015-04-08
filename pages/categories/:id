@@ -1,6 +1,5 @@
 <!-- begin #page - the container for everything but header -->
 <div id="page">	
-	<!--notice how sliders are outside the this main content div-->
 	<div class="sparkNow">
 		<div class="container clearfix">	
 		
@@ -31,7 +30,11 @@
 </div>
 
 
-
+<style>
+    .sparkNow{
+        margin-top:3%;
+    }
+</style>
 <script>
 $(document).ready(function() {
     function renderPageData(){
