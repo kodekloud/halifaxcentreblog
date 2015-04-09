@@ -49,11 +49,11 @@
     }
     .media-info-container{
         padding: 30px 0px 80px 0px;
-        border-top: 1px solid gray;
-        border-bottom: 1px solid gray;
+        border-top: 1px solid #c2c2c2;
+        border-bottom: 1px solid #c2c2c2;
     }
     .media-info-container .media-info-left{
-        border-right: 1px solid gray;
+        border-right: 1px solid #c2c2c2;
     }
 </style>
 <script>
