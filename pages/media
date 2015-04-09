@@ -82,9 +82,11 @@
     }
     ul.blogposts span.title{
         font-size:15pt;
-        text-decoration: none !important;
         display:inline-block;
         margin: 20px;
+    }
+    ul.blogposts span.title a{
+        text-decoration: none !important;
     }
 </style>
 <script>
