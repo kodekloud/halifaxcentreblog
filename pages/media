@@ -86,7 +86,7 @@
     }
     ul.blogposts span.title a{
         text-decoration: none;
-        font-size:15pt;
+        font-size:13pt;
     }
 </style>
 <script>
