@@ -84,7 +84,7 @@
         font-size:15pt;
         text-decoration: none !important;
         display:inline-block;
-        margin:25px;
+        margin: 20px;
     }
 </style>
 <script>
