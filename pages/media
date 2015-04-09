@@ -27,7 +27,7 @@
                                             <span class="month">{{publish_date_month}}</span> 
                                             <span class="day"><b>{{publish_date_day}}</b></span> 
                                         </span>
-                                        <h3><a href="/posts/{{slug}}" title="{{ title }}">{{ title }}</a></h3>
+                                        <span class="title"><a href="/posts/{{slug}}" title="{{ title }}">{{ title }}</a></span>
                                     </li>
                                 {{/.}}
                             </ul>
@@ -78,6 +78,9 @@
         padding-top: 19px;
     }
     ul.blogposts span.date .day{
+        font-size:15pt;
+    }
+    ul.blogposts span.date .title{
         font-size:15pt;
     }
 </style>
