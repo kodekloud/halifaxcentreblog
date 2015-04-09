@@ -63,6 +63,9 @@
     ul.blogposts{
         border-bottom: 1px solid #c2c2c2;
     }
+    ul.blogposts li{
+        display:inline-block;
+    }
     ul.blogposts span.date {
         height: 70px;
         width: 70px;
