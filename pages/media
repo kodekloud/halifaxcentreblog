@@ -23,11 +23,18 @@
                             <ul class="blogposts clearfix">
                                 {{#.}}
                                     <li> 
-                                        <span class="date"> 
-                                            <span class="month">{{publish_date_month}}</span> 
-                                            <span class="day"><b>{{publish_date_day}}</b></span> 
-                                        </span>
-                                        <span class="title"><a href="/posts/{{slug}}" title="{{ title }}">{{ title }}</a></span>
+                                        <div class="media-panel1">
+                                            <span class="date"> 
+                                                <span class="month">{{publish_date_month}}</span> 
+                                                <span class="day"><b>{{publish_date_day}}</b></span> 
+                                            </span>
+                                        </div>
+                                        <div class="media-panel2">
+                                            <span class="title"><a href="/posts/{{slug}}" title="{{ title }}">{{ title }}</a></span>
+                                        </div>
+                                        <div class="media-panel3">
+                                        
+                                        </div>
                                     </li>
                                 {{/.}}
                             </ul>
