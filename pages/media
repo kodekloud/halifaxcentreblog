@@ -60,7 +60,7 @@
     }
     
     ul.blogposts{
-
+        margin:0;
     }
     ul.blogposts li{
         display:inline-block;
