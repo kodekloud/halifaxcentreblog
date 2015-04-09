@@ -83,7 +83,7 @@
     ul.blogposts span.date .title{
         font-size:15pt;
         text-decoration: none !important;
-        display:block;
+        display:inline-block;
         margin:25px;
     }
 </style>
