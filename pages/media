@@ -64,6 +64,12 @@
       height: 61px;
       width: 70px;
     }
+    ul.blogposts span.date .month{
+        font-size:15px;
+    }
+    ul.blogposts span.date{
+        font-size:15px;
+    }
 </style>
 <script>
 $(document).ready(function() {
