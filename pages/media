@@ -67,6 +67,7 @@
     }
     ul.blogposts span.date .month{
         font-size:15pt;
+        padding-top: 19px;
     }
     ul.blogposts span.date .day{
         font-size:15pt;
