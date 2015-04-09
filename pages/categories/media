@@ -49,6 +49,8 @@
     }
     .media-info-container{
         padding: 10px 0px;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
     }
     .media-info-container .media-info-left{
         border-right: 1px solid gray;
