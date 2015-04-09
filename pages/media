@@ -66,10 +66,10 @@
         padding: 0 0 0 0;
     }
     ul.blogposts span.date .month{
-        font-size:15px;
+        font-size:15pt;
     }
     ul.blogposts span.date .day{
-        font-size:15px;
+        font-size:15pt;
     }
 </style>
 <script>
