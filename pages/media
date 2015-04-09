@@ -86,7 +86,7 @@
         margin: 20px;
     }
     ul.blogposts span.title a{
-        text-decoration: none !important;
+        text-decoration: none;
     }
 </style>
 <script>
