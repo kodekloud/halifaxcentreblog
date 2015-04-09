@@ -80,7 +80,7 @@
     ul.blogposts span.date .day{
         font-size:15pt;
     }
-    ul.blogposts span.date .title{
+    ul.blogposts span.title{
         font-size:15pt;
         text-decoration: none !important;
         display:inline-block;
