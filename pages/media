@@ -62,7 +62,7 @@
     ul.blogposts{
         margin:0;
     }
-    ul.blogposts li:first{
+    ul.blogposts li:first-child{
         border-top: 1px solid #c2c2c2;
     }
     ul.blogposts li{
