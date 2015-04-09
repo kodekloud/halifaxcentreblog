@@ -142,10 +142,10 @@
 						</div>
 						<div id="headerBottom">
 							<ul id="headerNav">
-								<li><a href="/posts?tag=fashion">REDEVELOPMENT NEWS</a></li>
-								<li><a href="/posts?tag=beauty">STORE UPDATES</a></li>
-								<li><a href="/posts?tag=homedecor">MEDIA</a></li>
-								<li><a href="/posts?tag=streetstyle">RENDERINGS</a></li>
+								<li><a href="/categories/redevelopment-news">REDEVELOPMENT NEWS</a></li>
+								<li><a href="/categories/store-updates">STORE UPDATES</a></li>
+								<li><a href="/media">MEDIA</a></li>
+								<li><a href="/renderings">RENDERINGS</a></li>
 							</ul>
 							<div id="headerSocialBox">
 								<div id="headerSocial">
