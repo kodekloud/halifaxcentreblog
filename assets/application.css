@@ -1146,7 +1146,6 @@ q q:after { content: "\2019" }
 .short_headline {
     /* border-bottom: 1px solid #d8dfe5; */
     margin:0 0 18px 0;
-    text-transform: uppercase;
     line-height:normal;
 }
 .short_headline span {
