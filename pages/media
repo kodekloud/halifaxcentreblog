@@ -122,7 +122,8 @@ function renderRepoDetailTemplate(blog_template, blog_block, repo){
     var item_rendered = [];
     var blog_template_html = $(blog_template).html();
     Mustache.parse(blog_template_html);   // optional, speeds up future uses
-
+    repo = repo.images;
+    
     $.each( repo, function( index, value ) {
         // MAX # IS 4
         if (index >= 4) {return false;};
