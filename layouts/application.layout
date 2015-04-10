@@ -40,18 +40,7 @@
         <script src="http://mallmaverick.kodekloud.io/mallmaverick.js?v=0.3"></script>
         <script src="http://mallmaverick.kodekloud.io/mustache_mallmaverick.js?v=0.3"></script>
         
-		<!-- SCRIPTS ============================================== -->
-        <!--	NOTE:: jquery 1.9.1 supports older ie, 2.0 does not, but 1.9.1 does not work well on ie8 and 
-				lower so version 1.7.2 is called for older versions of ie 
-				:: calling jQuery in the head for ajax work if necessary.
-		-->
-		<!--[if gt IE 8]><!-->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="/javascripts/stvblog/js/jquery-1.9.1.min.js"><\/script>')</script>
-		<!--<![endif]-->
-	    <!--[if lte IE 8]>
-		    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-		<![endif]-->
+
 
 		<!-- Add to Head after Style sheet http://modernizr.com/docs/#installing  ================ -->
 		<script src="/javascripts/stvblog/js/modernizr.js"></script><!-- js multiple backgrounds svg background size -->
