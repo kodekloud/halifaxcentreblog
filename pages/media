@@ -30,7 +30,7 @@
                                             </span>
                                         </div>
                                         <div class="media-panel2">
-                                            <span class="title"><a href="/posts/{{slug}}" title="{{ title }}">{{ title }}</a></span>
+                                            <span class="title">{{ title }}</span>
                                         </div>
                                         <div class="media-panel3">
                                         
@@ -123,7 +123,7 @@ function renderRepoDetailTemplate(blog_template, blog_block, repo){
     var blog_template_html = $(blog_template).html();
     Mustache.parse(blog_template_html);   // optional, speeds up future uses
     repo = repo.images;
-    
+    console.log(repo);
     $.each( repo, function( index, value ) {
         // MAX # IS 4
         if (index >= 4) {return false;};
