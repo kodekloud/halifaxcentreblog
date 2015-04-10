@@ -35,7 +35,7 @@
 		<!-- For third-generation iPad with high-resolution Retina display: -->
 		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png" />
 		<link rel="shortcut icon" href="favicon.ico" />
-        
+
 		<!-- SCRIPTS ============================================== -->
         <!--	NOTE:: jquery 1.9.1 supports older ie, 2.0 does not, but 1.9.1 does not work well on ie8 and 
 				lower so version 1.7.2 is called for older versions of ie 
@@ -62,8 +62,6 @@
         <!--MallMaverick v=0.3-->
         <script src="http://mallmaverick.kodekloud.io/mallmaverick.js?v=0.3"></script>
         <script src="http://mallmaverick.kodekloud.io/mustache_mallmaverick.js?v=0.3"></script>
-        
-        <script src="/application.js"></script>
         
         <script>
             $(document).ready(function() {
@@ -207,5 +205,6 @@
 			<!-- JS JQuery ================ --> 
 			<script src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/bootstrap.min.js"></script>
 			<script src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/lemmon-slider.min.js"></script>
+			<script src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/custom.js"></script>
 	</body>
 </html>
