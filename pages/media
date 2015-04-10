@@ -106,7 +106,7 @@ $(document).ready(function() {
     function renderPageData(){
         var pathArray = window.location.pathname.split( '/' );
         var category = pathArray[pathArray.length-1];
-        var repoList = getRepoList();
+        var repoList = getRepoDetailsByName("Website Images");
         console.log(repoList);
 
         renderPostListTemplate('#blog_tile_template', '#main-content',getPostList());
