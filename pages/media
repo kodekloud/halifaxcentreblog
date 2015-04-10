@@ -128,18 +128,18 @@ function renderRepoDetailTemplate(blog_template, blog_block, repo){
         // MAX # IS 4
         if (index >= 4) {return false;};
     
-        var publish_date = new Date(value.publish_date);
+        var updated_at = new Date(value.updated_at);
         
         var month_names_short = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-        value.publish_date_month = month_names_short[publish_date.getMonth()]
-        value.publish_date_day = publish_date.getDate()
+        value.publish_date_month = month_names_short[updated_at.getMonth()]
+        value.publish_date_day = updated_at.getDate()
     
         item_list.push(value);
     });
         
     item_list.sort(function(a, b){
-        if(a.publish_date > b.publish_date) return -1;
-        if(a.publish_date < b.publish_date) return 1;
+        if(a.updated_at > b.updated_at) return -1;
+        if(a.updated_at < b.updated_at) return 1;
         return 0;
     });
 
