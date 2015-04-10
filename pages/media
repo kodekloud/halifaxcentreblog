@@ -30,7 +30,7 @@
                                             </span>
                                         </div>
                                         <div class="media-panel2">
-                                            <span class="title">{{ name }}</span>
+                                            <span class="title"><a>{{ name }}</a></span>
                                         </div>
                                         <div class="media-panel3">
                                         
