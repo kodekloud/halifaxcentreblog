@@ -35,8 +35,6 @@
 		<!-- For third-generation iPad with high-resolution Retina display: -->
 		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png" />
 		<link rel="shortcut icon" href="favicon.ico" />
-
-
         
 		<!-- SCRIPTS ============================================== -->
         <!--	NOTE:: jquery 1.9.1 supports older ie, 2.0 does not, but 1.9.1 does not work well on ie8 and 
@@ -60,6 +58,10 @@
         <!--jReject is used to warn users certain browsers aren't compatible with this site-->
         <script src="//cdn.jsdelivr.net/jquery.jreject/1.0.2/js/jquery.reject.js"></script>
         <link href="//cdn.jsdelivr.net/jquery.jreject/1.0.2/css/jquery.reject.css" rel="stylesheet" type="text/css">
+        
+        <!--MallMaverick v=0.3-->
+        <script src="http://mallmaverick.kodekloud.io/mallmaverick.js?v=0.3"></script>
+        <script src="http://mallmaverick.kodekloud.io/mustache_mallmaverick.js?v=0.3"></script>
         
         <script src="/application.js"></script>
         
