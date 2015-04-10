@@ -124,8 +124,8 @@ function renderRepoDetailTemplate(blog_template, blog_block, repo){
     Mustache.parse(blog_template_html);   // optional, speeds up future uses
 
     $.each( repo, function( index, value ) {
-        // MAX # IS 10
-        if (index >= 10) {return false;};
+        // MAX # IS 4
+        if (index >= 4) {return false;};
     
         var publish_date = new Date(value.publish_date);
         
