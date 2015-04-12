@@ -2969,7 +2969,7 @@ h2,  h3 { page-break-after: avoid; }
 
 
 .sparkVideoTitle{
-    background-image: url('/javascripts/stvblog/img/video_icon.png');
+    background-image: url('http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/29a93cc9dd3b7f858a31366f54bbc07b/video_icon.png');
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 25px;
