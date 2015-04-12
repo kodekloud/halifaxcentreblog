@@ -19,7 +19,7 @@
 		    </ul>
 
 		</div>
-		<div class="controls"> <a href="#" class="prev-slide">Prev Page</a> <a href="#" class="next-slide">Next Page</a> </div>
+		<!--<div class="controls"> <a href="#" class="prev-slide">Prev Page</a> <a href="#" class="next-slide">Next Page</a> </div>-->
 		<!-- / .controls --> 
 	</div>
 	<!-- / end slider --> 
