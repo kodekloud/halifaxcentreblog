@@ -2868,9 +2868,10 @@ h2,  h3 { page-break-after: avoid; }
 
 .sparkNowTileTop{
     position: relative;
-    height: 156px;
+    height: 220px;
+    width: 220px;
     overflow: hidden;
-    width: 100%;
+
 }
 .sparkNowTileTag{
     position: absolute;
