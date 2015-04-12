@@ -88,7 +88,7 @@ $(document).ready(function() {
 
 function checkSeeMoreButton(){
     var numItems = $('.sparkNowTile').length
-    if(numItem>6){
+    if(numItems > 6){
         $('.sparkNowMore').fadeIn();
     }else{
         $('.sparkNowMore').fadeOut();
