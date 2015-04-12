@@ -2910,7 +2910,7 @@ h2,  h3 { page-break-after: avoid; }
 .sparkNowTileRead{
     position: absolute;
     bottom: 20px;
-    left: 256px;
+    left: 50%;
     letter-spacing: 2px;
     text-decoration: none;
     color: #f04a2b;
