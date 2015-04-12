@@ -119,6 +119,9 @@
         .media-info-container .media-info-left{
             border:none;
         }
+        .media-info-container .media-info-right{
+            padding:20px 0px;
+        }
     }
 </style>
 <script>
