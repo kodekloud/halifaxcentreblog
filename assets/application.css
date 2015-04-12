@@ -2868,7 +2868,7 @@ h2,  h3 { page-break-after: avoid; }
 .sparkNowTileTop{
     position: relative;
     height: 220px;
-    width: 220px;
+    width: 45.3%;
     overflow: hidden;
     display: inline-block;
     
