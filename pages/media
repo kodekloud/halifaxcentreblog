@@ -65,6 +65,9 @@
     .media-info-container .media-info-right{
         padding-left: 40px;
     }
+    .media-info-container .media-info-right span:nth-of-type(1){
+        
+    }
     
     ul.blogposts{
         margin:0;
