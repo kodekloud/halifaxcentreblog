@@ -77,7 +77,7 @@
     .media-panel1{
         float:left;
     }
-    ..media-panel3{
+    .media-panel3{
         float:right;
     }
     ul.blogposts{
