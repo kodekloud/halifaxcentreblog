@@ -2857,10 +2857,6 @@ h2,  h3 { page-break-after: avoid; }
     border-bottom: 1px solid #e0e1e1;
     min-height: 388px !important;
     position: relative; 
-    
-    display: inline-block;
-    width: 50%;
-    float: right;
 }
 .sparkNowTile:nth-of-type(3n+3){
     border-right: none;
@@ -2896,6 +2892,7 @@ h2,  h3 { page-break-after: avoid; }
     max-height: 170px;
     width: 50%;
     display: inline-block;
+    float: right;
 }
 .sparkNowTileTitle a{
     text-transform: uppercase; 
