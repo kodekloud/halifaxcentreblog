@@ -67,6 +67,7 @@
     }
     .media-info-container .media-info-right span:nth-of-type(1){
         color:#A0D8D0;
+        font-size:15pt;
     }
     
     ul.blogposts{
