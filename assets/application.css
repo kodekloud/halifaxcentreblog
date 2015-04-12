@@ -2858,16 +2858,14 @@ h2,  h3 { page-break-after: avoid; }
     height: 265px !important;
     position: relative; 
 }
+
 .sparkNowTile:nth-of-type(even){
     border-right: none;
 }
 .sparkNow .row-fluid:nth-of-type(n+2) .sparkNowTile{
     border-top: none;
 }
-.sparkNowTileHide{
-    display:none;
-    visibility:none;
-}
+
 .sparkNowTileTop{
     position: relative;
     height: 220px;
