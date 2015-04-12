@@ -2858,7 +2858,7 @@ h2,  h3 { page-break-after: avoid; }
     height: 265px !important;
     position: relative; 
 }
-.sparkNowTile:nth-of-type(3n+3){
+.sparkNowTile:nth-of-type(n+1){
     border-right: none;
 }
 .sparkNow .row-fluid:nth-of-type(n+2) .sparkNowTile{
