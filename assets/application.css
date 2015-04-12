@@ -585,6 +585,10 @@ body.tall-logo nav.user {
 ====================================================== */
 
 @media only screen and (max-width: 767px) {
+    .sparkNowTile{
+        border-right:none;
+    }
+    
     /*** Header / Logo / Preheader Mobile Adjustments ***/
     nav.user {
         float: right;
