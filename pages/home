@@ -33,7 +33,7 @@
                 <div class="row-fluid equalHero equalHeights" id="main-content">
                     <script id="blog_tile_template" type="x-tmpl-mustache">
             			<div class="span6 sparkNowTile">
-            				<div class="sparkNowTileTop" style="background: url({{image_url}}) no-repeat">
+            				<div class="sparkNowTileTop" style="background: url({{image_url}}) no-repeat center center">
             				    {{#tag_first}}
             				        <a href="/posts/{{slug}}" class="sparkNowTileTag">{{.}}</a>
                                 {{/tag_first}}
