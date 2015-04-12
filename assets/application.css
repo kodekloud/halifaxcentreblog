@@ -1909,9 +1909,10 @@ ul.image-widget {
 }
 #footer .footerCredits a,
 #footer .footerCredits li {
+    width:28px;
     text-decoration: none;
     color: #000000;
-    margin-left: -5px;
+    margin-left: 0px;
     text-transform: uppercase;
 }
 #footer .footerCredits a:hover { color: #fff }
