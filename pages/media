@@ -66,7 +66,7 @@
         padding-left: 40px;
     }
     .media-info-container .media-info-right span:nth-of-type(1){
-        
+        color:#A0D8D0;
     }
     
     ul.blogposts{
