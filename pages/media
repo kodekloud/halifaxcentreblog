@@ -117,6 +117,7 @@
     
     @media only screen and (max-width: 767px) {
         .media-info-container .media-info-left{
+            padding:0px;
             border:none;
         }
         .media-info-container .media-info-right{
