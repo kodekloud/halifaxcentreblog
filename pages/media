@@ -70,7 +70,8 @@
         font-size:15pt;
     }
     .media-info-container .media-info-right .fa{
-        
+        color:#A0D8D0;
+
     }
     
     ul.blogposts{
