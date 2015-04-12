@@ -109,28 +109,28 @@
         </div>
     </div>
 
-    <div class="row-fluid" id="blog_detail_container_4">
-        <script id="blog_detail_template_4" type="x-tmpl-mustache">
-            <div class="span10 offset1 entry-related">
-                <h4 class="short_headline"><span><b>Related</b>Stories</span></h4>
-                <div class="row-fluid equalHero equalHeights">
-                    {{#.}}
-                    <div class="span4 sparkNowTile">
-                        <div class="sparkNowTileTop">
-                            {{#tag_first}}
-                                <a href="/posts/{{slug}}" class="sparkNowTileTag">{{.}}</a>
-                            {{/tag_first}}
-                            <a href="/posts/{{slug}}" class="sparkNowTileImg">
-                                <img src="{{image_url}}" class="aligncenter" alt="" />
-                            </a>
-                        </div>
-                        <div class="sparkNowTileTitle"><a href="/posts/{{slug}}"><h3>{{ title }}</h3></a></div>
-                    </div>
-                    {{/.}}
-                </div>
-            </div>
-        </script>
-    </div>
+    <!--<div class="row-fluid" id="blog_detail_container_4">-->
+    <!--    <script id="blog_detail_template_4" type="x-tmpl-mustache">-->
+    <!--        <div class="span10 offset1 entry-related">-->
+    <!--            <h4 class="short_headline"><span><b>Related</b>Stories</span></h4>-->
+    <!--            <div class="row-fluid equalHero equalHeights">-->
+    <!--                {{#.}}-->
+    <!--                <div class="span4 sparkNowTile">-->
+    <!--                    <div class="sparkNowTileTop">-->
+    <!--                        {{#tag_first}}-->
+    <!--                            <a href="/posts/{{slug}}" class="sparkNowTileTag">{{.}}</a>-->
+    <!--                        {{/tag_first}}-->
+    <!--                        <a href="/posts/{{slug}}" class="sparkNowTileImg">-->
+    <!--                            <img src="{{image_url}}" class="aligncenter" alt="" />-->
+    <!--                        </a>-->
+    <!--                    </div>-->
+    <!--                    <div class="sparkNowTileTitle"><a href="/posts/{{slug}}"><h3>{{ title }}</h3></a></div>-->
+    <!--                </div>-->
+    <!--                {{/.}}-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </script>-->
+    <!--</div>-->
 </div>
 
 
@@ -151,7 +151,7 @@
             renderPostDetailTemplate('#blog_detail_template_1', '#blog_detail_container_1',blog_detail);
             renderPostDetailTemplate('#blog_detail_template_2', '#blog_detail_container_2',blog_detail);
             renderPostListTemplate('#blog_detail_template_3', '#blog_detail_container_3',getPostList());
-            renderPostRelatedTemplate('#blog_detail_template_4', '#blog_detail_container_4',getPostList(),blog_detail);
+            // renderPostRelatedTemplate('#blog_detail_template_4', '#blog_detail_container_4',getPostList(),blog_detail);
             // $('#loading').hide();
             // $('#page_content').fadeIn('fast');
             
