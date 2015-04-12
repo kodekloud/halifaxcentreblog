@@ -71,6 +71,9 @@
         width: 1.5em;
     }
     
+    .media-panel1,.media-panel2,.media-panel3{
+        display:inline-block;
+    }
     ul.blogposts{
         margin:0;
     }
