@@ -1705,6 +1705,7 @@ ul.blogposts span.date .day{
 }
 ul.blogposts span.date .month {
     font-size: 7.62px;
+    padding-top: 7px;
     display:block;
     position: relative;
     text-transform: uppercase;
