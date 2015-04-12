@@ -84,7 +84,7 @@ $(document).ready(function() {
         // $('#page_content').fadeIn('fast');
     }
     
-    loadMallData(renderPageData);
+    //loadMallData(renderPageData);
 });
 
 function renderPostListTemplate(blog_template, blog_block, post){
