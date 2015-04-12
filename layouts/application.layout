@@ -140,6 +140,7 @@
 						<!--		</form>-->
 						<!--	</div>			-->
 						<!--</div>-->
+						<div id="headerTop"></div>
 						<div id="headerBottom">
 							<ul id="headerNav">
 								<li><a href="/categories/redevelopment-news">REDEVELOPMENT NEWS</a></li>
