@@ -33,12 +33,12 @@
                 <div class="row-fluid equalHero equalHeights" id="main-content">
                     <script id="blog_tile_template" type="x-tmpl-mustache">
             			<div class="span6 sparkNowTile">
-            				<div class="sparkNowTileTop">
+            				<div class="sparkNowTileTop" style="background: url({{image_url}}) no-repeat center">
             				    {{#tag_first}}
             				        <a href="/posts/{{slug}}" class="sparkNowTileTag">{{.}}</a>
                                 {{/tag_first}}
             					<a href="/posts/{{slug}}" class="sparkNowTileImg">
-            						<img src="{{ image_url }}" class="aligncenter" alt="" />
+            				// 		<img src="{{ image_url }}" class="aligncenter" alt="" />
             					</a>
             				</div>
             				<div class="sparkNowTileTitle"><a href="/posts/{{slug}}"><h3>{{ title }}</h3></a></div>
