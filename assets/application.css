@@ -1894,7 +1894,7 @@ ul.image-widget {
     padding: 3px 0;
     margin: 0;
     position: relative;
-    left: -10px;
+    left: 0px;
 }
 #footer .footerCredits li {
     float: left;
