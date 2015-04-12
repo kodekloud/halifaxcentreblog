@@ -1,8 +1,8 @@
 <!-- begin #page - the container for everything but header -->
 <div id="page">	
 	<!--begin slider -->
-	<div class="lemmon-wrap clearfix">
-		<div id="lemmon-slider" class="lemmon-slider">
+	<div class="">
+		<div id="" class="">
 			<ul id="blog_banner">
 			    <li><img src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/4/11/1397210130748/Spring-Lamb.-Image-shot-2-011.jpg"></li>
 		    </ul>
