@@ -2850,7 +2850,7 @@ h2,  h3 { page-break-after: avoid; }
     display: inline-block;
 }
 .sparkNowTile{
-    margin: 0px !important;
+    margin: -1px 0 0 0 !important;
     padding: 20px;
     border-top: 1px solid #e0e1e1;
     border-right: 1px solid #e0e1e1;
