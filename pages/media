@@ -63,7 +63,7 @@
         border-right: 1px solid #c2c2c2;
     }
     .media-info-container .media-info-right{
-        padding-left: 40px;
+        padding-left: 10px;
     }
     .media-info-container .media-info-right span:nth-of-type(1){
         color:#A0D8D0;
