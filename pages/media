@@ -74,6 +74,12 @@
     .media-panel1,.media-panel2,.media-panel3{
         display:inline-block;
     }
+    .media-panel1{
+        float:left;
+    }
+    ..media-panel3{
+        float:right;
+    }
     ul.blogposts{
         margin:0;
     }
