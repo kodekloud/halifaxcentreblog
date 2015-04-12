@@ -2851,7 +2851,6 @@ h2,  h3 { page-break-after: avoid; }
 }
 .sparkNowTile{
     margin: 0px !important;
-    width: 33.33% !important;
     padding: 12px 10px 17px 10px;
     border-top: 1px solid #e0e1e1;
     border-right: 1px solid #e0e1e1;
