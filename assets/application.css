@@ -2864,7 +2864,10 @@ h2,  h3 { page-break-after: avoid; }
 .sparkNow .row-fluid:nth-of-type(n+2) .sparkNowTile{
     border-top: none;
 }
-
+.sparkNowTileHide{
+    display:none;
+    visibility:none;
+}
 .sparkNowTileTop{
     position: relative;
     height: 220px;
