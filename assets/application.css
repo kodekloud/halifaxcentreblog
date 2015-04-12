@@ -2942,7 +2942,7 @@ h2,  h3 { page-break-after: avoid; }
     width: 184px;
     height: 32px;
     background-color: #965251;
-    margin: 26px auto 0px auto;
+    margin: 26px auto 26px auto;
     text-align: center;
 }
 .sparkNowMore a{
