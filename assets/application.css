@@ -2840,7 +2840,7 @@ h2,  h3 { page-break-after: avoid; }
 }
 
 .sparkNow .container{
-    max-width: 765px;
+    max-width: 1080px;
 }
 .sparkNowTitle{
     background-image: url('/javascripts/stvblog/img/spark_icon.png');
