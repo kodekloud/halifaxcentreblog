@@ -114,6 +114,10 @@
         text-decoration: none;
         font-size:13pt;
     }
+    
+    @media only screen and (max-width: 767px) {
+        
+    }
 </style>
 <script>
 $(document).ready(function() {
