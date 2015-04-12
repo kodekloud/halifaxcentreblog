@@ -71,7 +71,7 @@
     }
     .media-info-container .media-info-right .fa{
         color:#A0D8D0;
-
+        width:2em;
     }
     
     ul.blogposts{
