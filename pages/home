@@ -54,22 +54,22 @@
 	</div>
 
 	<!-- SPARKVIDEO -->
-	<div class="sparkVideo">
-		<div class="container clearfix row-fluid"> 
-			<h3 class="short_headline sparkVideoTitle"><span><b>SPARK</b>VIDEO</span></h3>
-			{% for post in published_video_posts limit:1 %}
-				<div class="video-container">
-					<iframe width="560" height="315" src="//www.youtube.com/embed/{{post.video_link}}" frameborder="0" allowfullscreen></iframe>
-				</div>
-				<a href="/posts/{{post.slug}}" class="sparkVideoPostTitle"><h1>{{ post.title }}</h1></a>
-				{{ post.body }}
-				<a class="sparkVideoRead" href="/posts/{{post.slug}}">READ</a>
-			{% endfor %}	
-			<div class="sparkVideoMore">
-				<a href="/posts?tag=video">SEE MORE</a>
-			</div>	
-		</div>
-	</div> 
+	<!--<div class="sparkVideo">-->
+	<!--	<div class="container clearfix row-fluid"> -->
+	<!--		<h3 class="short_headline sparkVideoTitle"><span><b>SPARK</b>VIDEO</span></h3>-->
+	<!--		{% for post in published_video_posts limit:1 %}-->
+	<!--			<div class="video-container">-->
+	<!--				<iframe width="560" height="315" src="//www.youtube.com/embed/{{post.video_link}}" frameborder="0" allowfullscreen></iframe>-->
+	<!--			</div>-->
+	<!--			<a href="/posts/{{post.slug}}" class="sparkVideoPostTitle"><h1>{{ post.title }}</h1></a>-->
+	<!--			{{ post.body }}-->
+	<!--			<a class="sparkVideoRead" href="/posts/{{post.slug}}">READ</a>-->
+	<!--		{% endfor %}	-->
+	<!--		<div class="sparkVideoMore">-->
+	<!--			<a href="/posts?tag=video">SEE MORE</a>-->
+	<!--		</div>	-->
+	<!--	</div>-->
+	<!--</div> -->
 </div>
 
 
