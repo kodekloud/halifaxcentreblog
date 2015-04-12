@@ -85,6 +85,9 @@ $(document).ready(function() {
     loadMallData(renderPageData);
 });
 
+function checkSeeMoreButton(){
+    
+}
 function renderPostListTemplate(blog_template, blog_block, post){
 
     var item_list = [];
