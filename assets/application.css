@@ -3097,3 +3097,10 @@ h2,  h3 { page-break-after: avoid; }
     width: 100%;
     height: 100%;
 }
+
+
+@media only screen and (max-width: 767px) {
+    .sparkNowTile{
+        border-right:none;
+    }
+}
