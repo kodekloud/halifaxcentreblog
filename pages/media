@@ -33,7 +33,7 @@
                                             <span class="title"><a>{{ name }}</a></span>
                                         </div>
                                         <div class="media-panel3">
-                                        
+                                            <i class="fa fa-download"></i>
                                         </div>
                                     </li>
                                 {{/.}}
