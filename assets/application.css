@@ -2895,6 +2895,7 @@ h2,  h3 { page-break-after: avoid; }
     overflow: hidden;
     max-height: 170px;
     width: 50%;
+    display: inline-block;
 }
 .sparkNowTileTitle a{
     text-transform: uppercase; 
