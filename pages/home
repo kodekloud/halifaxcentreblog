@@ -1,21 +1,25 @@
 <!-- begin #page - the container for everything but header -->
 <div id="page">	
 	<!--begin slider -->
-	<div class="">
-		<div id="" class="lemmon-slider">
+	<div class="lemmon-wrap clearfix">
+		<div id="lemmon-slider" class="lemmon-slider">
 			<ul id="blog_banner">
-			    <li><img src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/4/11/1397210130748/Spring-Lamb.-Image-shot-2-011.jpg"></li>
 		    </ul>
-			<ul id="blog_banner">
-			    <li><img src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/4/11/1397210130748/Spring-Lamb.-Image-shot-2-011.jpg"></li>
-		    </ul>			
-		    <ul id="blog_banner">
-			    <li><img src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/4/11/1397210130748/Spring-Lamb.-Image-shot-2-011.jpg"></li>
-		    </ul>		
-		    <ul id="blog_banner">
-			    <li><img src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/4/11/1397210130748/Spring-Lamb.-Image-shot-2-011.jpg"></li>
-		    </ul>
+			    <script id="blog_banner_template" type="x-tmpl-mustache">
+					<li> 
+						<a href="/posts/{{slug}}"> 
+							<img src="{{ image_url }}" alt="" />
+						</a> 
+						<div class="summary"> 
+							<a href="/posts/{{slug}}"> 
+								<p>{{ tag_list }}</p>
+	                       		<h3>{{ title }}</h3>
+							</a> 
+						</div>
+					</li>
+                </script>
 		</div>
+		<div class="controls"> <a href="#" class="prev-slide">Prev Page</a> <a href="#" class="next-slide">Next Page</a> </div>
 		<!-- / .controls --> 
 	</div>
 	<!-- / end slider --> 
@@ -80,7 +84,7 @@ $(document).ready(function() {
         // $('#page_content').fadeIn('fast');
     }
     
-    // loadMallData(renderPageData);
+    loadMallData(renderPageData);
 });
 
 function renderPostListTemplate(blog_template, blog_block, post){
