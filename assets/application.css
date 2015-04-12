@@ -1687,9 +1687,9 @@ ul.blogposts span.date {
     display: block;
     float: left;
     line-height: 1;
-    height: 26px;
+    height: 35px;
     width: 35px;
-    padding: 9px 0 0 0;
+    padding: 0 0 0 0;
     text-align: center;
     /* -webkit-box-shadow: inset 2px 2px 0px 0px #a3b0bb; */
     /* box-shadow: inset 2px 2px 0px 0px #a3b0bb; */
