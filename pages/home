@@ -32,7 +32,7 @@
 			<h3 class="short_headline sparkNowTitle"><span>The Latest</span></h3>
                 <div class="row-fluid equalHero equalHeights" id="main-content">
                     <script id="blog_tile_template" type="x-tmpl-mustache">
-            			<div class="span4 sparkNowTile">
+            			<div class="span6 sparkNowTile">
             				<div class="sparkNowTileTop">
             				    {{#tag_first}}
             				        <a href="/posts/{{slug}}" class="sparkNowTileTag">{{.}}</a>
