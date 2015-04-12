@@ -2,7 +2,7 @@
 <div id="page">	
 	<!--begin slider -->
 	<div class="lemmon-wrap clearfix">
-		<div id="lemmon-slider" class="lemmon-slider">
+		<div class="lemmon-slider">
 			<ul id="blog_banner">
 		    </ul>
 			    <script id="blog_banner_template" type="x-tmpl-mustache">
