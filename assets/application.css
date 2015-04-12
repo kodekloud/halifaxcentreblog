@@ -2874,7 +2874,7 @@ h2,  h3 { page-break-after: avoid; }
     height: 220px;
     width: 220px;
     overflow: hidden;
-
+    display: inline-block;
 }
 .sparkNowTileTag{
     position: absolute;
