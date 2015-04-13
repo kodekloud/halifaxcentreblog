@@ -159,7 +159,6 @@
         Mustache.parse(blog_template_html);   // optional, speeds up future uses
         post.prev_post = getPrevPostBySlug(post.slug);
         post.next_post = getNextPostBySlug(post.slug);
-    
        
         var blog_rendered = Mustache.render(blog_template_html,post);
         item_list.push(blog_rendered);
