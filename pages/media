@@ -80,6 +80,11 @@
     .media-panel3{
         float:right;
     }
+    .media-panel3 a{
+        width: 30px;
+        display: block;
+        padding: 20px;
+    }
     ul.blogposts{
         margin:0;
     }
