@@ -16,9 +16,9 @@
                                     <span class="day"><b>{{publish_date_day}}</b></span>
                                 </span>
                             </li>
-                            <li><a href="https://www.facebook.com/StVitalCentre" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/facebook.png"></a></li>
-                            <li><a href="http://www.pinterest.com/stvitalcentre" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/pinter.png"></a></li>
-                            <li><a href="https://twitter.com/StVitalCentre" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/twitter.png"></a></li>
+                            // <li><a href="https://www.facebook.com/StVitalCentre" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/facebook.png"></a></li>
+                            // <li><a href="http://www.pinterest.com/stvitalcentre" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/pinter.png"></a></li>
+                            // <li><a href="https://twitter.com/StVitalCentre" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/twitter.png"></a></li>
                         </ul>
                     </div>
                 </script>
