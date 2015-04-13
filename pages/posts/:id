@@ -29,8 +29,6 @@
                         {{#next_post}}
                             <a href="/posts/{{ slug }}">NEXT STORY</a>
                         {{/next_post}}
-                        <a href="{{ prev_post.slug }}">PREVIOUS STORY</a>
-                        <a href="{{ next_post.slug }}">NEXT STORY</a>
                     </div>
                     <article class="entry-post">
                         <header class="entry-header">
