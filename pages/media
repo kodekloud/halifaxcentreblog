@@ -77,6 +77,9 @@
     .media-panel1{
         float:left;
     }
+    .media-panel2{
+        max-width:78%;
+    }
     .media-panel3{
         float:right;
     }
