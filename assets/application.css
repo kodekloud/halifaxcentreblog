@@ -111,6 +111,7 @@ body.tall-logo nav.user {
 }
 #headerRight{
     width: 75%;
+    position: relative;
 }
 .header ul li{
     list-style-type: none;
