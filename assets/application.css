@@ -3055,7 +3055,7 @@ h2,  h3 { page-break-after: avoid; }
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.blog-detail-nav a:first-child{
+.blog-detail-nav a.prev-post{
     float: left;
     background-image: url('http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/arrowblack_left.png');
     background-position: left;
@@ -3063,7 +3063,7 @@ h2,  h3 { page-break-after: avoid; }
     padding-left: 16px;
 
 }
-.blog-detail-nav a:nth-child(2){
+.blog-detail-nav a.next-post{
     float: right;
     background-image: url('http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/arrowblack_right.png');
     background-position: right;
