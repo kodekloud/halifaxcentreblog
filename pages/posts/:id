@@ -41,9 +41,9 @@
                             {{/image_url}}
                             <h1>{{ title }}</h1>
                             <!-- AddThis Button BEGIN -->
-                            <div class="addthis_native_toolbox"></div>
+                            // <div class="addthis_native_toolbox"></div>
                             
-                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5150b79556552030" async="async"></script>
+                            <!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5150b79556552030" async="async"></script>-->
                             <!-- AddThis Button END -->
                             {{ body }}
                         </header>
