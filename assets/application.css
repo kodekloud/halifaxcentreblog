@@ -1943,6 +1943,9 @@ ul.image-widget {
 #footerLogo{
     display: inline-block;
 }
+#footerLogo img{
+    width:180px;
+}
 #footerTop{
     border-bottom: 1px solid #C2C2C2;
     padding-bottom: 8px;
