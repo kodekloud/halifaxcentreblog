@@ -1928,6 +1928,10 @@ ul.image-widget {
     width: 25%;
     padding-top: 9px;
 }
+#footerImg img{
+    width: 185px;    
+}
+
 #footerAbout{
     display: inline-block;
     float: right;
