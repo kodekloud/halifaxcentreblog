@@ -24,7 +24,7 @@
                 <script id="blog_detail_template_2" type="x-tmpl-mustache">
                     <div class="blog-detail-nav">
                         {{#prev_post}}
-                            <a href="{{ slug }}">PREVIOUS STORY</a>
+                            <a href="/posts/{{ slug }}">PREVIOUS STORY</a>
                         {{/prev_post}}
                         <a href="{{ prev_post.slug }}">PREVIOUS STORY</a>
                         <a href="{{ next_post.slug }}">NEXT STORY</a>
