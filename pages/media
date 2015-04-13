@@ -131,6 +131,9 @@
         .media-info-container .media-info-right{
             padding:20px 0px 0px 0px;
         }
+        .media-panel2{
+            max-width:60%;
+        }
     }
 </style>
 <script>
