@@ -1,24 +1,23 @@
 <!-- begin #page - the container for everything but header -->
 <div id="page">	
+	<!--notice how sliders are outside the this main content div-->
 	<div class="sparkNow">
 		<div class="container clearfix">	
 		
 			<!-- begin equalHeights columns 3 -->
-			<h3 class="short_headline sparkNowTitle"><span><b>SPARKING</b>NOW</span></h3>
+			<h3 class="short_headline sparkNowTitle"><span>The Latest</span></h3>
                 <div class="row-fluid equalHero equalHeights" id="main-content">
                     <script id="blog_tile_template" type="x-tmpl-mustache">
-            			<div class="span4 sparkNowTile">
-            				<div class="sparkNowTileTop">
+            			<div class="span6 sparkNowTile">
+            				<div class="sparkNowTileTop" style="background: url({{image_url}}) no-repeat center center">
             				    {{#tag_first}}
             				        <a href="/posts/{{slug}}" class="sparkNowTileTag">{{.}}</a>
                                 {{/tag_first}}
             					<a href="/posts/{{slug}}" class="sparkNowTileImg">
-            						<img src="{{ image_url }}" class="aligncenter" alt="" />
             					</a>
             				</div>
             				<div class="sparkNowTileTitle"><a href="/posts/{{slug}}"><h3>{{ title }}</h3></a></div>
             				<a class="sparkNowTileRead" href="/posts/{{slug}}">READ</a>
-            				<a class="{{impression_tile_class}}" href="/posts/{{slug}}">{{ impression_count }}</a>
             			</div>
 				    </script>
 				</div>
