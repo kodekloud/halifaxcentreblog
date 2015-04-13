@@ -156,13 +156,13 @@ body.tall-logo nav.user {
     float: right;
 }
 #headerNav{
-    float: left;
-    padding: 12px 5px 0px 12px;
-    border-top: 1px solid #ffffff;
-    margin: 0px;
-    position:absolute;
-    bottom:0px;
-    left:0px;
+  float: left;
+  padding: 5px 5px 0px 60px;
+  border-top: 1px solid #ffffff;
+  margin: 0px;
+  position: absolute;
+  bottom: 0px;
+  left: -15px;
     
 }
 #headerNav li{
