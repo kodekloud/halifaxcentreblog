@@ -165,6 +165,7 @@ body.tall-logo nav.user {
     font-size: 9pt;
     letter-spacing: 1px;
     
+    position:absolute;
     bottom:0px;
     left:0px;
 }
