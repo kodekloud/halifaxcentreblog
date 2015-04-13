@@ -26,6 +26,9 @@
                         {{#prev_post}}
                             <a href="/posts/{{ slug }}">PREVIOUS STORY</a>
                         {{/prev_post}}
+                        {{#next_post}}
+                            <a href="/posts/{{ slug }}">PREVIOUS STORY</a>
+                        {{/next_post}}
                         <a href="{{ prev_post.slug }}">PREVIOUS STORY</a>
                         <a href="{{ next_post.slug }}">NEXT STORY</a>
                     </div>
