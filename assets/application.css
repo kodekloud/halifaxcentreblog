@@ -101,7 +101,7 @@ body.tall-logo nav.user {
     display: inline-block;
 }
 #headerLogo img{
-    
+    width:100px;
 }
 
 #headerImg{
