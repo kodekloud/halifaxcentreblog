@@ -33,7 +33,7 @@
                                             <span class="title">{{ name }}</span>
                                         </div>
                                         <div class="media-panel3">
-                                            <a ref="{{photo_url_abs}}"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/ca154da403704cfa25435ecf6221d86b/icon_download.png"></a>
+                                            <a href="{{photo_url_abs}}"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/ca154da403704cfa25435ecf6221d86b/icon_download.png"></a>
                                         </div>
                                     </li>
                                 {{/.}}
