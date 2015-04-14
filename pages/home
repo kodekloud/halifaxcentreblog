@@ -12,7 +12,7 @@
 						</a> 
 						<div class="summary"> 
 							<a href="/posts/{{slug}}"> 
-								<p>{{ tag_list }}</p>
+								<p>{{ tag }}</p>
 	                       		<h3>{{ title }}</h3>
 							</a> 
 						</div>
