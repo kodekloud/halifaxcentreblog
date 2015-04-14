@@ -133,7 +133,7 @@ function renderPostListTemplate(blog_template, blog_block, post){
 
     $.each( item_list , function( index, val ) {
         // MAX # IS 2
-        if (index >= 10) {return false;};
+        if (index >= 2) {return false;};
         
         var blog_rendered = Mustache.render(blog_template_html,val);
         item_rendered.push(blog_rendered);
