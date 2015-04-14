@@ -2860,9 +2860,6 @@ h2,  h3 { page-break-after: avoid; }
     max-width: 1080px;
 }
 .sparkNowTitle{
-    background-image: url('/javascripts/stvblog/img/spark_icon.png');
-    background-repeat: no-repeat;
-    background-position: right;
     padding-right: 25px;
     display: inline-block;
 }
