@@ -3,7 +3,7 @@
     <div class="container clearfix" id="main-content"> 
         <!--begin main content-->
         <div class="row-fluid sidebar-right"> 
-            <div class="span2" id="blog_detail_container_1">
+            <div class="span2" id="blog_detail_container_1" class="hidden-phone">
                 <script id="blog_detail_template_1" type="x-tmpl-mustache">
                     <div id="postSocial">
                         <ul class="blogposts">
