@@ -32,6 +32,9 @@
 <script>
 $(document).ready(function() {
     function renderPageData(){
+        var pathArray = window.location.pathname.split( '/' );
+        var category = pathArray[pathArray.length-1];
+
         renderPostTileTemplate('#blog_tile_template', '#main-content',getPostList());
     }
     
