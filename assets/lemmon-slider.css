@@ -112,13 +112,13 @@
 }
 .next-slide { 
 /*    border-left: 3px solid #fff; */
-    background: transparent url(http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/303a4f00a0bbdf75ebcc3b4b5ca7c4ed/icon_right.png) -80px 50% no-repeat;
+    background: transparent url(http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/b239db31c4de1536d5e3d74d7b04ab2d/icon_right.png) -80px 50% no-repeat;
 }
 .prev-slide{
     left: 0;
     right: auto;
     background-position: -110px 50%;
-    background: transparent url(http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/303a4f00a0bbdf75ebcc3b4b5ca7c4ed/icon_left.png) -30px 50% no-repeat;
+    background: transparent url(http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/b239db31c4de1536d5e3d74d7b04ab2d/icon_left.png) -30px 50% no-repeat;
 }
 .next-slide:hover,
 .prev-slide:hover { opacity: .5 }
