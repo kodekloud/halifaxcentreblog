@@ -130,6 +130,9 @@ function renderPostTileTemplate(blog_template, blog_block, post){
     
     totalPosts = post.length;
     showingPosts = $('.sparkNowTile').length;
+    
+    console.log(totalPosts);
+    console.log(totalPosts);
 
     $.each( post , function( key, val ) {
         item_list.push(val);
