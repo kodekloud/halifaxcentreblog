@@ -51,7 +51,7 @@
 		<![endif]-->
 
 		<!-- Add to Head after Style sheet http://modernizr.com/docs/#installing  ================ -->
-		<script src="/javascripts/stvblog/js/modernizr.js"></script><!-- js multiple backgrounds svg background size -->
+		<script src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/b239db31c4de1536d5e3d74d7b04ab2d/modernizr.js"></script><!-- js multiple backgrounds svg background size -->
 		
 		<!--Mustache is a client side templating engine https://github.com/janl/mustache.js/ -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
