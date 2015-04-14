@@ -129,7 +129,6 @@
         }
         .blog-detail{
             border-right:none;
-            padding:none;
         }
     }
 </style>
