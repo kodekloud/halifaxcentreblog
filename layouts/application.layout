@@ -127,7 +127,7 @@
 			<header class="header  clearfix">
 				<div class="container"> 
 					<div class="mobile-menu-holder">
-					<div class="menu-phone hidden-desktop">
+					    <div class="menu-phone hidden-desktop">
                             <div class="menu-phone-btn">
                                 <a class="text text-34">MENU</a>
                             </div>
