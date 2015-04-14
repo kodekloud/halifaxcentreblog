@@ -161,7 +161,6 @@ function renderPostTileTemplate(blog_template, blog_block, post){
     });
 
     $.each( item_list , function( index, val ) {
-        // MAX # IS 2
         if (index >= showingPosts+interval) {return false;};
         
         var blog_rendered = Mustache.render(blog_template_html,val);
