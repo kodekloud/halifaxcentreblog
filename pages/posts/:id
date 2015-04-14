@@ -120,6 +120,13 @@
     <!--    </script>-->
     <!--</div>-->
 </div>
+<style>
+    
+    @media
+    {
+        .blog_detail_container_1{display:none;}
+    }
+</style>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552bf365691d2c2d" async="async"></script>
