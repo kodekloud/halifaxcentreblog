@@ -95,7 +95,6 @@ function checkSeeMoreButton(){
     }else{
         $('.sparkNowMore').fadeOut();
     }
-    
 }
 function renderPostListTemplate(blog_template, blog_block, post){
 
