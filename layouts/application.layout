@@ -124,7 +124,7 @@
                 }
                 .mobile-menu-holder ul li{
                     display:block;
-                    height:30px;
+                    padding:10px;
                 }
 	        }
 	    </style>
