@@ -106,8 +106,9 @@ function renderPostSliderTemplate(blog_template, blog_block, post){
         if(val.tag.length != 0){
             val.tag_first = val.tag[0];
         }
-        item_list.push(val);
+        // item_list.push(val);
     });
+    item_list.push(val);
 
     item_list.sort(function(a, b){
         if(a.publish_date > b.publish_date) return -1;
