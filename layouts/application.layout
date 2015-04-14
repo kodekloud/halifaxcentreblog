@@ -134,14 +134,6 @@
 			<!-- begin .header-->
 			<header class="header clearfix">
 				<div class="container"> 
-					<div class="mobile-menu-holder">
-					    <ul id="">
-							<li><a href="/categories/redevelopment%20news">REDEVELOPMENT NEWS</a></li>
-							<li><a href="/categories/store%20updates">STORE UPDATES</a></li>
-							<li><a href="/media">MEDIA</a></li>
-							<li><a href="/renderings">RENDERINGS</a></li>
-						</ul>
-					</div>
 					<!-- begin #main_menu -->
 					<div id="headerImg">
 						<a href="/"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/ab68e7728cb5b0f923b2e3e7bbeec5dc/logo_pretty.png"></a>
