@@ -89,7 +89,6 @@ var totalPosts;
 var showingPosts;
 
 function checkSeeMoreButton(){
-    var showingPosts = $('.sparkNowTile').length
     if(totalPosts > showingPosts){
         $('.sparkNowMore').fadeIn();
     }else{
