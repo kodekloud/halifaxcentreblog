@@ -48,7 +48,7 @@
                         <div class="entry-tags">
                             <p>TAGS</p>
                             {{#tag}}
-                                <a href="/categories/{{tag}}" rel="tag">{{.}}</a><span> /</span>
+                                <a href="/categories/{{.}}" rel="tag">{{.}}</a><span> /</span>
                             {{/tag}}
                         </div>                  
                     </article>
