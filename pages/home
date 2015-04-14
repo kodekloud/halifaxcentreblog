@@ -85,7 +85,7 @@ $(document).ready(function() {
     
     loadMallData(renderPageData);
 });
-var showingPosts;
+var interval = 2;
 var totalPosts;
 
 function checkSeeMoreButton(){
@@ -130,7 +130,6 @@ function renderPostTileTemplate(blog_template, blog_block, post){
     
     totalPosts = post.length;
     var showingPosts = $('.sparkNowTile').length;
-    var interval = 2;
     
     console.log(totalPosts);
     console.log(showingPosts);
