@@ -34,7 +34,7 @@ $(document).ready(function() {
     function renderPageData(){
         var pathArray = window.location.pathname.split( '/' );
         var category = pathArray[pathArray.length-1];
-        category = category.replace("%20",/\s/g);
+        category = category.replace("%20","");
         console.log(category);
 
         renderPostTileTemplate('#blog_tile_template', '#main-content',getPostsByTag(category));
