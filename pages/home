@@ -46,7 +46,7 @@
 				    </script>
 				</div>
 	   		<div class="sparkNowMore">
-				<a href="/posts?tag=video">SEE MORE</a>
+				<a href="javascript:void(0);" onclick="renderPostTileTemplate('#blog_tile_template', '#main-content',getPostList());"></a>SEE MORE</a>
 			</div>
 		</div>
 	</div>
