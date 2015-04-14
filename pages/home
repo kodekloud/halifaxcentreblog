@@ -116,6 +116,7 @@ function renderPostSliderTemplate(blog_template, blog_block, post){
         item_rendered.push(blog_rendered);
     });
     $(blog_block).html(item_rendered.join(''));
+    $( '.lemmon-slider' ).lemmonSlider();
 }
 
 function renderPostTileTemplate(blog_template, blog_block, post){
