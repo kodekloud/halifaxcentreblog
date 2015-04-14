@@ -127,6 +127,7 @@ function renderPostTileTemplate(blog_template, blog_block, post){
     var item_rendered = [];
     var blog_template_html = $(blog_template).html();
     Mustache.parse(blog_template_html);   // optional, speeds up future uses
+    
     totalPosts = post.length;
 
     $.each( post , function( key, val ) {
