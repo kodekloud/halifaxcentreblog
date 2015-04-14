@@ -33,7 +33,6 @@
 <script>
 $(document).ready(function() {
     function renderPageData(){
-        renderPostListTemplate('#blog_banner_template', '#blog_banner',getPostList());
         renderPostTileTemplate('#blog_tile_template', '#main-content',getPostList());
 
         // $('#loading').hide();
