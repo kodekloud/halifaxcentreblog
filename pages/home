@@ -129,7 +129,7 @@ function renderPostTileTemplate(blog_template, blog_block, post){
     Mustache.parse(blog_template_html);   // optional, speeds up future uses
     
     totalPosts = post.length;
-    var showingPosts = $('.sparkNowTile').length;
+    showingPosts = $('.sparkNowTile').length;
     
     console.log(totalPosts);
     console.log(showingPosts);
