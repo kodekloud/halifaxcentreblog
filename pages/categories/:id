@@ -34,9 +34,6 @@
 $(document).ready(function() {
     function renderPageData(){
         renderPostTileTemplate('#blog_tile_template', '#main-content',getPostList());
-
-        // $('#loading').hide();
-        // $('#page_content').fadeIn('fast');
     }
     
     loadMallData(renderPageData);
