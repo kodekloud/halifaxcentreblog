@@ -85,6 +85,8 @@ $(document).ready(function() {
     
     loadMallData(renderPageData);
 });
+var showingPosts;
+var totalPosts;
 
 function checkSeeMoreButton(){
     var numItems = $('.sparkNowTile').length
