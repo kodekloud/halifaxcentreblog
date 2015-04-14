@@ -74,7 +74,7 @@
 <script>
 $(document).ready(function() {
     function renderPageData(){
-        renderPostListTemplate('#blog_banner_template', '#blog_banner',getPostList());
+        renderPostSliderTemplate('#blog_banner_template', '#blog_banner',getPostList());
         renderPostTileTemplate('#blog_tile_template', '#main-content',getPostList());
         $( '.lemmon-slider' ).lemmonSlider();
 
@@ -95,7 +95,7 @@ function checkSeeMoreButton(){
         $('.sparkNowMore').fadeOut();
     }
 }
-function renderPostListTemplate(blog_template, blog_block, post){
+function renderPostSliderTemplate(blog_template, blog_block, post){
 
     var item_list = [];
     var item_rendered = [];
