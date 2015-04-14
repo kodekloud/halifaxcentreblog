@@ -84,7 +84,7 @@ $(document).ready(function() {
     
     loadMallData(renderPageData);
 });
-var interval = 2;
+var interval = 4;
 var totalPosts;
 var showingPosts;
 
