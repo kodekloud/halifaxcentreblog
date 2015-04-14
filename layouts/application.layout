@@ -124,7 +124,7 @@
 			<!--end mobile navigation trigger-->
 
 			<!-- begin .header-->
-			<header class="header  clearfix">
+			<header class="header clearfix">
 				<div class="container"> 
 					<div class="mobile-menu-holder">
 					    <ul id="headerNav">
