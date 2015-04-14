@@ -87,12 +87,14 @@
     position: relative;
     text-transform: uppercase;
     letter-spacing: 2px;
+    padding-bottom:8px;
 }
 
 .lemmon-slider li div.summary h3{
     font-size: 14px;
     text-transform: uppercase;
     color: #CACACA;
+    padding:8px 0px;
 }
 
 /*================================================ 
