@@ -115,7 +115,6 @@
 	        @media only screen and (max-width: 767px) {
                 .mobile_nav{
                     display:block !important;
-                    position:inherit !important;
                     width: 100%;
                 }
                 .header .container{
