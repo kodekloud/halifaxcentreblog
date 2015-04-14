@@ -126,7 +126,10 @@
 			<!-- begin .header-->
 			<header class="header  clearfix">
 				<div class="container"> 
-					<div class="mobile-menu-holder"><!--clone menu here for mobile--></div>
+					<div class="mobile-menu-holder">
+					
+					    
+					</div>
 					<!-- begin #main_menu -->
 					<div id="headerImg">
 						<a href="/"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/ab68e7728cb5b0f923b2e3e7bbeec5dc/logo_pretty.png"></a>
@@ -163,6 +166,7 @@
 						</div>
 					</div>
 					<!-- close / #main_menu --> 
+					
 
 				</div>
 				<!-- close / .container--> 
