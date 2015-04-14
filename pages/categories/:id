@@ -35,7 +35,7 @@ $(document).ready(function() {
         var pathArray = window.location.pathname.split( '/' );
         var category = pathArray[pathArray.length-1];
 
-        renderPostTileTemplate('#blog_tile_template', '#main-content',getPostList());
+        renderPostTileTemplate('#blog_tile_template', '#main-content',getPostsByTag(category));
     }
     
     loadMallData(renderPageData);
