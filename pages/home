@@ -87,6 +87,7 @@ $(document).ready(function() {
 });
 var interval = 2;
 var totalPosts;
+var showingPosts;
 
 function checkSeeMoreButton(){
     var showingPosts = $('.sparkNowTile').length
