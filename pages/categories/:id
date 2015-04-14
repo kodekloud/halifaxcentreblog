@@ -21,7 +21,7 @@
             			</div>
 				    </script>
 	   		<div class="sparkNowMore">
-				<a href="javascript:void(0);" onclick="renderPageData()">SEE MORE</a>
+				<a href="javascript:void(0);" onclick="renderPageData();">SEE MORE</a>
 			</div>
 		</div>
 	</div>
