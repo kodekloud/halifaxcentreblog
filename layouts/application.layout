@@ -121,6 +121,9 @@
                     display:none;
                     visibility:none;
                 }
+                .mobile-menu-holder ul li{
+                    display:block;
+                }
 	        }
 	    </style>
 			<!-- begin accesibility skip to nav skip content -->
