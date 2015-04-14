@@ -109,13 +109,13 @@ function renderPostSliderTemplate(blog_template, blog_block, post){
         // item_list.push(val);
     });
     item_list.push(post[1]);
+    item_list.push(post[2]);
     item_list.push(post[1]);
+    item_list.push(post[2]);
     item_list.push(post[1]);
+    item_list.push(post[2]);
     item_list.push(post[1]);
-    item_list.push(post[1]);
-    item_list.push(post[1]);
-    item_list.push(post[1]);
-    item_list.push(post[1]);
+    item_list.push(post[2]);
 
     item_list.sort(function(a, b){
         if(a.publish_date > b.publish_date) return -1;
