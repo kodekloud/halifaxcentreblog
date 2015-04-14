@@ -1,8 +1,5 @@
 <!-- begin #page - the container for everything but header -->
 <div id="page">
-    <div class="container visible-phone">
-        <p class="right"><a class="btn btn-primary scrollto" href="#secondary-nav">Blog Menu &nbsp;<i class="icon-align-justify"></i></a></p>
-    </div>
     <div class="container clearfix" id="main-content"> 
         <!--begin main content-->
         <div class="row-fluid sidebar-right"> 
