@@ -124,7 +124,10 @@
     
     @media only screen and (max-width: 767px) {
         #blog_detail_container_1{display:none;}
-        .blog-detail{border-right:none;}
+        .blog-detail{
+            border-right:none;
+            padding:none;
+        }
     }
 </style>
 
