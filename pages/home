@@ -76,10 +76,10 @@ $(document).ready(function() {
     function renderPageData(){
         renderPostListTemplate('#blog_banner_template', '#blog_banner',getPostList());
         renderPostTileTemplate('#blog_tile_template', '#main-content',getPostList());
+        $( '.lemmon-slider' ).lemmonSlider();
 
         // $('#loading').hide();
         // $('#page_content').fadeIn('fast');
-        $( '.lemmon-slider' ).lemmonSlider();
     }
     
     loadMallData(renderPageData);
