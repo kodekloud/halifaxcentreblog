@@ -102,7 +102,7 @@ function renderPostSliderTemplate(blog_template, blog_block, post){
     var blog_template_html = $(blog_template).html();
     Mustache.parse(blog_template_html);   // optional, speeds up future uses
 
-    $.each( post , function( key, val ) {
+    $.each( post , function( index, val ) {
         if(val.tag.length != 0){
             val.tag_first = val.tag[0];
         }
