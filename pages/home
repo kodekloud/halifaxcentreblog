@@ -79,6 +79,7 @@ $(document).ready(function() {
 
         // $('#loading').hide();
         // $('#page_content').fadeIn('fast');
+        $( '#slider1' ).lemmonSlider();
     }
     
     loadMallData(renderPageData);
