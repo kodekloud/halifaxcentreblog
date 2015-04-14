@@ -5,19 +5,19 @@
 		<div class="lemmon-slider">
 			<ul id="blog_banner">
 		    </ul>
-			    <script id="blog_banner_template" type="x-tmpl-mustache">
-					<li> 
+			<script id="blog_banner_template" type="x-tmpl-mustache">
+				<li> 
+					<a href="/posts/{{slug}}"> 
+						<img src="{{ image_url }}" alt="" />
+					</a> 
+					<div class="summary"> 
 						<a href="/posts/{{slug}}"> 
-							<img src="{{ image_url }}" alt="" />
+							<p>{{ tag }}</p>
+                     		<h3>{{ title }}</h3>
 						</a> 
-						<div class="summary"> 
-							<a href="/posts/{{slug}}"> 
-								<p>{{ tag }}</p>
-	                       		<h3>{{ title }}</h3>
-							</a> 
-						</div>
-					</li>
-                </script>
+					</div>
+				</li>
+            </script>
 		</div>
 		<div class="controls"> <a href="#" class="prev-slide">Prev Page</a> <a href="#" class="next-slide">Next Page</a> </div>
 		<!-- / .controls --> 
