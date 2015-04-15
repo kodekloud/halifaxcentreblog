@@ -39,7 +39,7 @@
                             {{/image_url}}
                             <h1>{{ title }}</h1>
                             <div class="addthis_native_toolbox"></div>
-                            {{ html_body }}
+                            {{{ html_body }}}
                         </header>
                         <!--end entry-header-->
                         <div class="entry-tags">
