@@ -1930,7 +1930,10 @@ ul.image-widget {
     margin: 0;
     position: relative;
 }
-
+#footer .footerCredits li {
+    float: left;
+    padding: 0px;
+}
 #footer .footerCredits li:last-child,
 #footer .footerCredits .last { border: none }
 #footer .footerCredits li:first-child { padding-left: 0 }
@@ -1940,10 +1943,8 @@ ul.image-widget {
 }
 #footer .footerCredits a,
 #footer .footerCredits li {
-    float: left;
-    padding: 0px;
     width:28px;
-    padding-right:20px;
+    padding-right:5px;
     text-decoration: none;
     color: #000000;
     margin-left: 0px;
@@ -1973,7 +1974,7 @@ ul.image-widget {
 }
 #footerSocial{
     display: inline-block;
-    padding: 0px;
+    padding: 20px;
 }
 #footerLogo{
     display: inline-block;
