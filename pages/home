@@ -8,7 +8,7 @@
 			<script id="blog_banner_template" type="x-tmpl-mustache">
 				<li> 
 					<a href="/posts/{{slug}}"> 
-					    <div class="blog_banner_img" style="background:url({{ image_url }})"></div>
+						<img src="{{ image_url }}" alt="" />
 					</a> 
 					<div class="summary"> 
 						<a href="/posts/{{slug}}"> 
