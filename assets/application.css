@@ -717,7 +717,9 @@ body.tall-logo nav.user {
     .mobile_nav .mobile_nav_logo{
         height: 100%;
         float: right;
-        
+        position: absolute;
+        right: 5px;
+        top: 0;
     }
     .mobile_nav a span {
         display: block;
