@@ -141,7 +141,7 @@ $(document).ready(function() {
         var pathArray = window.location.pathname.split( '/' );
         var category = pathArray[pathArray.length-1];
 
-        renderRepoDetailTemplate('#blog_tile_template', '#main-content',getRepoDetailsByName("Website Images"));
+        renderRepoDetailTemplate('#blog_tile_template', '#main-content',getRepoDetailsByName("blog-media"));
         
         // $('#loading').hide();
         // $('#page_content').fadeIn('fast');
