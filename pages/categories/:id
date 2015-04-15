@@ -22,6 +22,7 @@
 				    </script>
 	   		<div class="sparkNowMore">
 				<a href="javascript:void(0);" onclick="renderPageData();">SEE MORE</a>
+				<i class="fa fa-caret-down fa-lg"></i>
 			</div>
 		</div>
 	</div>
