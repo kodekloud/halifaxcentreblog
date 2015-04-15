@@ -41,7 +41,7 @@
             					</a>
             				</div>
             				<div class="sparkNowTileTitle"><a href="/posts/{{slug}}"><h3>{{ title }}</h3></a></div>
-            				<a class="sparkNowTileRead" href="/posts/{{slug}}">READ<i class="fa fa-caret-right fa-lg"></i></a>
+            				<a class="sparkNowTileRead" href="/posts/{{slug}}">READ <i class="fa fa-caret-right fa-lg"></i></a>
             			</div>
 				    </script>
 	   		<div class="sparkNowMore">
