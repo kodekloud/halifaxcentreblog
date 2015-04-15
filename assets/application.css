@@ -2931,9 +2931,6 @@ h2,  h3 { page-break-after: avoid; }
     letter-spacing: 2px;
     text-decoration: none;
     color: #f04a2b;
-    background-image: url('http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/29a93cc9dd3b7f858a31366f54bbc07b/arrowpink_icon.png');
-    background-repeat: no-repeat;
-    background-position: right;
     padding-right: 12px;
     display: inline-block;
 }
