@@ -165,7 +165,7 @@ body.tall-logo nav.user {
   position: absolute;
   bottom: 0px;
   left: -15px;
-    
+  width: 80%;
 }
 #headerNav li{
     display: inline-block;
