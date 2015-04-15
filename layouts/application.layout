@@ -44,7 +44,11 @@
 		-->
 		<script src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/jquery-1.9.1.min.js"></script>
 
-
+        <!-- JS JQuery ================ --> 
+		<script src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/bootstrap.min.js"></script>
+		<script src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/lemmon-slider.min.js"></script>
+		<script src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/custom.js"></script>
+		
 		<!-- Add to Head after Style sheet http://modernizr.com/docs/#installing  ================ -->
 		<script src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/b239db31c4de1536d5e3d74d7b04ab2d/modernizr.js"></script><!-- js multiple backgrounds svg background size -->
 		
@@ -55,11 +59,6 @@
         <script src="//cdn.jsdelivr.net/jquery.jreject/1.0.2/js/jquery.reject.js"></script>
         <link href="//cdn.jsdelivr.net/jquery.jreject/1.0.2/css/jquery.reject.css" rel="stylesheet" type="text/css">
         
-        <!-- JS JQuery ================ --> 
-		<script src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/bootstrap.min.js"></script>
-		<script src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/lemmon-slider.min.js"></script>
-		<script src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/custom.js"></script>
-			
         <!--MallMaverick v=0.3-->
         <script src="http://mallmaverick.kodekloud.io/mallmaverick.js?v=0.3"></script>
         <script src="http://mallmaverick.kodekloud.io/mustache_mallmaverick.js?v=0.3"></script>
