@@ -133,7 +133,7 @@
 			<!-- end /.visuallyhidden accesibility--> 
 
 			<!-- mobile navigation trigger-->
-			<h5 class="mobile_nav"><a href="javascript:void(0)">&nbsp;<span>MENU</span></a></h5>
+			<h5 class="mobile_nav"><a href="javascript:void(0)">&nbsp;<span><i class="fa fa-bars"></i></span></a></h5>
 			<!--end mobile navigation trigger-->
 
 			<!-- begin .header-->
