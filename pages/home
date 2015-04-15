@@ -46,7 +46,7 @@
 				    </script>
 	   		<div class="sparkNowMore">
 				<a href="javascript:void(0);" onclick="renderPostTileTemplate('#blog_tile_template', '#main-content',getPostList());">SEE MORE</a>
-				<i class="fa fa-caret-down"></i>
+				<i class="fa fa-caret-down fa-lg"></i>
 			</div>
 		</div>
 	</div>
