@@ -176,6 +176,7 @@
         var blog_rendered = Mustache.render(blog_template_html,post);
         item_list.push(blog_rendered);
         $(blog_block).html(item_list.join(''));
+        console.log(post);
     }
     
     function renderPostListTemplate(blog_template, blog_block, post){
