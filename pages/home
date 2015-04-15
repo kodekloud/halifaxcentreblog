@@ -9,7 +9,6 @@
 				<li> 
 					<a href="/posts/{{slug}}"> 
 					    <div class="blog_banner_img" style="url({{ image_url }})"></div>
-				// 		<img src="{{ image_url }}" alt="" />
 					</a> 
 					<div class="summary"> 
 						<a href="/posts/{{slug}}"> 
