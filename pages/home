@@ -78,6 +78,7 @@ $(document).ready(function() {
         renderPostSliderTemplate('#blog_banner_template', '#blog_banner',getPostList());
         renderPostTileTemplate('#blog_tile_template', '#main-content',getPostList());
         
+        $( '.lemmon-slider' ).lemmonSlider();
         setInterval(function () {$( '.lemmon-slider' ).lemmonSlider()}, 500);
         
 
