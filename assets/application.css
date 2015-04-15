@@ -3090,9 +3090,7 @@ h2,  h3 { page-break-after: avoid; }
     font-family: Georgia, serif !important;
     font-size: 15pt !important;
 }
-.entry-header img{
-    width: 100%;
-}
+
 .entry-tags{
     font-size: 11pt;
     padding: 37px 0px 78px 0px;
