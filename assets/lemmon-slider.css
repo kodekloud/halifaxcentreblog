@@ -46,6 +46,9 @@
     margin: 0 0 0 0px;
     max-width: 300px;
 }
+.lemmon-slider li .blog_banner_template{
+    width:100%;
+}
 .no-js .lemmon-slider li {
     float: left;
     display: block;
