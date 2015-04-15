@@ -1950,6 +1950,7 @@ ul.image-widget {
 }
 #footerSocial{
     display: inline-block;
+    padding: 20px;
 }
 #footerLogo{
     display: inline-block;
