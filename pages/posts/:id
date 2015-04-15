@@ -231,7 +231,7 @@
             if(a.publish_date < b.publish_date) return 1;
             return 0;
         });
-
+        console.log(item.list);
         var blog_rendered = Mustache.render(blog_template_html,item_list);
         $(blog_block).html(blog_rendered);
     }
