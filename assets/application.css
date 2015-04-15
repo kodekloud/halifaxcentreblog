@@ -173,7 +173,7 @@ body.tall-logo nav.user {
     font-size: 9pt;
     letter-spacing: 1px;
 }
-#headerNav li:nth-of-child(0){
+#headerNav li:nth-of-type(0){
     width:30%;
 }
 #headerSocialBox{
