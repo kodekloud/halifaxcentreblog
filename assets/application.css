@@ -177,13 +177,13 @@ body.tall-logo nav.user {
     width:32%;
 }
 #headerNav li:nth-of-type(2){
-    width:30%;
+    width:23%;
 }
 #headerNav li:nth-of-type(3){
-    width:30%;
+    width:10%;
 }
 #headerNav li:nth-of-type(4){
-    width:30%;
+    width:18%;
 }
 #headerSocialBox{
     float: right;
