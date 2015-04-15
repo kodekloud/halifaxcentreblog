@@ -35,7 +35,9 @@
                                 </div>
                             {{/video_link}}
                             {{#image_url}}
-                                <img id="post_image" src="{{.}}" />
+                                <div class="photo-container">
+                                    <img id="post_image" src="{{.}}" />
+                                </div>
                             {{/image_url}}
                             <h1>{{ title }}</h1>
                             <div class="addthis_native_toolbox"></div>
