@@ -2969,11 +2969,11 @@ h2,  h3 { page-break-after: avoid; }
     background-color: #965251;
     margin: 26px auto 26px auto;
     text-align: center;
+    color: #ffffff;
 }
 .sparkNowMore a{
     text-transform: uppercase;
     text-decoration: none;
-    color: #ffffff;
     font-size: 10pt;
     font-weight: bold;
     margin-top: 6px;
