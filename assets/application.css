@@ -1930,10 +1930,7 @@ ul.image-widget {
     margin: 0;
     position: relative;
 }
-#footer .footerCredits li {
-    float: left;
-    padding: 0px;
-}
+
 #footer .footerCredits li:last-child,
 #footer .footerCredits .last { border: none }
 #footer .footerCredits li:first-child { padding-left: 0 }
@@ -1943,6 +1940,8 @@ ul.image-widget {
 }
 #footer .footerCredits a,
 #footer .footerCredits li {
+    float: left;
+    padding: 0px;
     width:28px;
     padding-right:5px;
     text-decoration: none;
