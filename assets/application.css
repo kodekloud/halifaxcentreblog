@@ -155,6 +155,7 @@ body.tall-logo nav.user {
 }
 #headerBottom{
     float: right;
+    width: 100%;
 }
 #headerNav{
   float: left;
