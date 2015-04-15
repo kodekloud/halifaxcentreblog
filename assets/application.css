@@ -168,7 +168,7 @@ body.tall-logo nav.user {
 }
 #headerNav li{
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 0px 28px;
     font-size: 9pt;
     letter-spacing: 1px;
 }
