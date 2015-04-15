@@ -5,25 +5,25 @@
 		<div class="lemmon-slider">
 			<ul id="blog_banner">
 		    </ul>
-			<script id="blog_banner_template" type="x-tmpl-mustache">
-				<li> 
-					<a href="/posts/{{slug}}"> 
-						<img src="{{ image_url }}" alt="" />
-					</a> 
-					<div class="summary"> 
-						<a href="/posts/{{slug}}"> 
-							<p>{{ tag_first }}</p>
-                     		<h3>{{ title }}</h3>
-						</a> 
-					</div>
-				</li>
-            </script>
 		</div>
 		<div class="controls"> <a href="#" class="prev-slide">Prev Page</a> <a href="#" class="next-slide">Next Page</a> </div>
 		<!-- / .controls --> 
 	</div>
 	<!-- / end slider --> 
-
+    <script id="blog_banner_template" type="x-tmpl-mustache">
+		<li> 
+			<a href="/posts/{{slug}}"> 
+				<img src="{{ image_url }}" alt="" />
+			</a> 
+			<div class="summary"> 
+				<a href="/posts/{{slug}}"> 
+					<p>{{ tag_first }}</p>
+             		<h3>{{ title }}</h3>
+				</a> 
+			</div>
+		</li>
+    </script>
+            
 	<!--notice how sliders are outside the this main content div-->
 	<div class="sparkNow">
 		<div class="container clearfix">	
