@@ -711,7 +711,9 @@ body.tall-logo nav.user {
         background: #53a3b7;
         z-index: 1;
     }
-    
+    .mobile_nav .fa-bars{
+          padding: 12px 4px;
+    }
     .mobile_nav a span {
         display: block;
         width: 20px;
