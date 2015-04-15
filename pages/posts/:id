@@ -36,7 +36,7 @@
                             {{/video_link}}
                             {{#image_url}}
                                 <div class="photo-container">
-                                    <img id="post_image" src="{{.}}" />
+                                    <img src="{{.}}" />
                                 </div>
                             {{/image_url}}
                             <h1>{{ title }}</h1>
