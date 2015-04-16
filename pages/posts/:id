@@ -123,7 +123,7 @@
 </div>
 <style>
     #blog_detail_container_1{
-        margin-top:30px;
+        margin-top:50px;
     }
     @media only screen and (max-width: 767px) {
         #blog_detail_container_1{
