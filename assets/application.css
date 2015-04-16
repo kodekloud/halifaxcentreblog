@@ -3133,7 +3133,7 @@ h2,  h3 { page-break-after: avoid; }
     .sparkNowTile{
         border-right:none;
     }
-    .footerSocial{
+    #footerSocial{
         display:none;
     }
 }
