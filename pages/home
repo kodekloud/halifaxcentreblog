@@ -38,7 +38,7 @@
             			<div class="span6 sparkNowTile">
             				<div class="sparkNowTileTop" style="background: url({{image_url}}) no-repeat center center">
             				    {{#tag_first}}
-            				        <a href="/posts/{{slug}}" class="sparkNowTileTag">{{.}}</a>
+            				        <a href="/categories/{{slug}}" class="sparkNowTileTag">{{.}}</a>
                                 {{/tag_first}}
             					<a href="/posts/{{slug}}" class="sparkNowTileImg">
             					</a>
