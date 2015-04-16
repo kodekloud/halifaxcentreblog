@@ -115,7 +115,9 @@ function renderPostSliderTemplate(blog_template, blog_block, post){
         if(val.tag.length != 0){
             val.tag_first = val.tag[0];
         }
-        if($.inArray('hot stories', val.tag) > -1)
+        if($.inArray('hot stories', val.tag) > -1){
+            val.hot_stories = 1;
+        }
         item_list.push(val);
     });
 
