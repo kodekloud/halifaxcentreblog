@@ -1546,7 +1546,7 @@ input[type="text"], input[type="password"], input[type="search"], input[type="em
 
 /****** widget base ******/
 .widget {
-    margin:30px 0 30px 0;
+    margin:50px 0 30px 0;
     clear:both;
 }
 
