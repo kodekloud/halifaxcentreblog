@@ -122,7 +122,9 @@
     <!--</div>-->
 </div>
 <style>
-    
+    #blog_detail_container_1{
+        margin-top:4%;
+    }
     @media only screen and (max-width: 767px) {
         #blog_detail_container_1{
             display:none;
