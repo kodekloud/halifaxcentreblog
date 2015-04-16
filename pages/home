@@ -15,6 +15,9 @@
 			<a href="/posts/{{slug}}"> 
 				<img src="{{ image_url }}" alt="" />
 			</a> 
+			{{#hot_stories}}
+            	<a href="/posts/{{slug}}" class="sparkNowTileTag">HOT STORIES</a>
+            {{/hot_stories}}
 			<div class="summary"> 
 				<a href="/posts/{{slug}}"> 
 					<p>{{ tag_first }}</p>
