@@ -985,7 +985,7 @@ body.tall-logo nav.user {
     margin: 0 auto;
 }
 #main-content {
-    padding-top:75px;
+    padding-top:0px;
     padding-bottom:24px;
     clear: both;
 }
