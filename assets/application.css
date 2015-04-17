@@ -3137,4 +3137,7 @@ h2,  h3 { page-break-after: avoid; }
     #footerSocial{
         display:none;
     }
+    #main-content{
+        padding-top:24px;
+    }
 }
