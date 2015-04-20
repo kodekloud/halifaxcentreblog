@@ -133,6 +133,8 @@ body.tall-logo nav.user {
 }
 #headerSignUp{
     width:143px;
+    right:0px;
+    top:0px;
 }
 #headerSignUp a{
     color: #18A779;
