@@ -156,7 +156,7 @@
 					<div id="headerRight">
 						<div id="headerTop">
 							<div id="headerSearch">
-								<form class="desktop_search_bar_form" action="/search/">
+								<form class="desktop_search_bar_form" action="/search">
 									<label for="desktop_search_bar" style="display:none;">SEARCH</label>
 									<input id="desktop_search_bar" name="keyword" type="text" class="search-query input-block-level" placeholder="SEARCH">
 								</form>
