@@ -139,7 +139,8 @@ body.tall-logo nav.user {
 #desktop_search_bar {
     border-radius: 0px;
     border-width: 0px;
-    background: #FFFFFF url(http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/search_icon.png) right center no-repeat;
+    background: url(http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/search_icon.png) right center no-repeat;
+    background-color: rgba(255,255,255,0.4);
     background-size: 12px 11px;
     box-shadow: none;
     width: 150px;
