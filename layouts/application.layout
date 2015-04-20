@@ -142,7 +142,12 @@
 			<header class="header clearfix">
                 <div class="mobile-menu-holder">
 					    <ul id="">
-					        <li></li>
+					        <li>
+					            <form class="desktop_search_bar_form" action="/search">
+									<label for="desktop_search_bar" style="display:none;">SEARCH</label>
+									<input id="desktop_search_bar" name="keyword" type="text" class="search-query input-block-level" placeholder="SEARCH">
+								</form>
+					        </li>
 							<li>
 							    <a href="http://www.halifaxshoppingcentre.com/newsletter" target="_blank">
 							    <img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/61c6905430240ce0bdb389ec72467071/getonthelist.jpg" class="" alt=""></a>
