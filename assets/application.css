@@ -3152,4 +3152,9 @@ h2,  h3 { page-break-after: avoid; }
         width:100%;
         padding: 20px 0px;
     }
+    .sparkNowTileRead{
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
 }
