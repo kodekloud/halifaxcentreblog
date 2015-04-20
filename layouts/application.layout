@@ -143,9 +143,9 @@
                 <div class="mobile-menu-holder">
 					    <ul id="">
 					        <li>
-					            <form class="desktop_search_bar_form" action="/search">
-									<label for="desktop_search_bar" style="display:none;">SEARCH</label>
-									<input id="desktop_search_bar" name="keyword" type="text" class="search-query input-block-level" placeholder="SEARCH">
+					            <form class="mobile_search_bar_form" action="/search">
+									<label for="mobile_search_bar" style="display:none;">SEARCH</label>
+									<input id="mobile_search_bar" name="keyword" type="text" class="search-query input-block-level" placeholder="SEARCH">
 								</form>
 					        </li>
 							<li>
