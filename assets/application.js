@@ -602,8 +602,7 @@ if( $("html").hasClass("lt-ie9") )
 // Search Bar
 $(document).ready(function() {
     $(".move_to").on("click", function () {
-        $('.desktop_search_bar_form').attr('action', "/test1");
-        $(".desktop_search_bar_form").submit();
+        $('.desktop_search_bar_form').attr('action', "/test1").submit();
         e.preventDefault();
     });
 });
