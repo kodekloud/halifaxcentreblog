@@ -71,6 +71,9 @@
         color:#A0D8D0;
         width: 1.5em;
     }
+    .media-info-container .media-info-right a{
+        text-decoration: none;
+    }
     
     .media-panel1,.media-panel2,.media-panel3{
         display:inline-block;
