@@ -154,15 +154,15 @@
 						<a href="/"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/ab68e7728cb5b0f923b2e3e7bbeec5dc/logo_pretty.png"></a>
 					</div>
 					<div id="headerRight">
-						<div id="headerTop">
-							<div id="headerSearch">
-								<form class="desktop_search_bar_form" action="/posts">
-									<label for="desktop_search_bar" style="display:none;">SEARCH</label>
-									<input id="desktop_search_bar" name="keyword" type="text" class="search-query input-block-level" placeholder="SEARCH">
-								</form>
-							</div>	
-							<div id="headerSignUp"><a>SIGN UP</a></div>
-						</div>
+						<!--<div id="headerTop">-->
+						<!--	<div id="headerSignUp"><a>SIGN UP</a></div>-->
+						<!--	<div id="headerSearch">-->
+						<!--		<form class="desktop_search_bar_form" action="/posts">-->
+						<!--			<label for="desktop_search_bar" style="display:none;">SEARCH</label>-->
+						<!--			<input id="desktop_search_bar" name="keyword" type="text" class="search-query input-block-level" placeholder="SEARCH">-->
+						<!--		</form>-->
+						<!--	</div>			-->
+						<!--</div>-->
 						<div id="headerBottom">
 							<ul id="headerNav">
 								<li><a href="/categories/redevelopment%20news">REDEVELOPMENT NEWS</a></li>
