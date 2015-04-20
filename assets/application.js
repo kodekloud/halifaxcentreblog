@@ -146,7 +146,7 @@ $(document).ready(function () {
 
 /* ___ toggle mobile menu __________________*/
 $(document).ready(function () {
-	$('.mobile_nav a').click(function () {
+	$('.mobile_nav .mobile_nav_bar').click(function () {
 		$('.mobile-menu-holder').slideToggle('fast');
 		$(this).toggleClass('active');
 	});
