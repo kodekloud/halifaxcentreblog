@@ -3143,7 +3143,7 @@ h2,  h3 { page-break-after: avoid; }
         display:none;
     }
     #main-content{
-        padding-top:24px;
+        /*padding-top:24px;*/
     }
     .entry-header h1{
         font-size:16pt;
