@@ -601,7 +601,7 @@ if( $("html").hasClass("lt-ie9") )
 
 // Search Bar
 $(document).ready(function() {
-    $('.desktop_search_bar_form').on('submit', function(e) { //use on if jQuery 1.7+
+    $('.desktop_search_bar_form').on('submit', function(e) {
         $('.desktop_search_bar_form').attr('action', "/test1").submit();
         e.preventDefault();
     });
