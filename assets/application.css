@@ -3169,7 +3169,7 @@ h2,  h3 { page-break-after: avoid; }
 }
 
 .media-detail-nav{
-    
+    text-decoration: none;
 }
 .media-detail-nav a:nth-of-type(1){
 }
