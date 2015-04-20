@@ -3169,11 +3169,13 @@ h2,  h3 { page-break-after: avoid; }
 }
 
 .media-detail-nav{
-    text-decoration: none;
+    
 }
 .media-detail-nav a:nth-of-type(1){
+    text-decoration: none;
 }
 .media-detail-nav a:nth-of-type(2){
+    text-decoration: none;
     float:right;
 }
 @media only screen and (max-width: 767px) {
