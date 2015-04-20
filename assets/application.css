@@ -172,7 +172,7 @@ body.tall-logo nav.user {
 #desktop_search_bar:-ms-input-placeholder { /* Internet Explorer 10+ */
    color:    #ffffff;
 }
-#mobile_search_bar_form{
+#mobile_search_bar{
     border-radius: 0px;
     border-width: 0px;
     background: url(http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/61c6905430240ce0bdb389ec72467071/icon_search_360.png) right center no-repeat;
