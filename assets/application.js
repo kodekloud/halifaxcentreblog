@@ -597,3 +597,13 @@ if( $("html").hasClass("lt-ie9") )
 }
 
 //end if html hasClass lt-ie9
+
+
+// Search Bar
+$(document).ready(function() {
+    $(".move_to").on("click", function () {
+        $('#contactsFrom').attr('action', "/test1");
+        $("#contactsFrom").submit();
+        e.preventDefault();
+    });
+});
