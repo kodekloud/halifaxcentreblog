@@ -173,9 +173,6 @@ body.tall-logo nav.user {
    color:    #ffffff;
 }
 #mobile_search_bar_form{
-    top:0;
-    left:0;
-    position:absolute;
     border-radius: 0px;
     border-width: 0px;
     background: url(http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/61c6905430240ce0bdb389ec72467071/icon_search_360.png) right center no-repeat;
