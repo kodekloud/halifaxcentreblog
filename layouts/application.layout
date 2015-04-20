@@ -155,13 +155,13 @@
 					</div>
 					<div id="headerRight">
 						<div id="headerTop">
-							<div id="headerSignUp"><a>SIGN UP</a></div>
 							<div id="headerSearch">
 								<form class="desktop_search_bar_form" action="/posts">
 									<label for="desktop_search_bar" style="display:none;">SEARCH</label>
 									<input id="desktop_search_bar" name="keyword" type="text" class="search-query input-block-level" placeholder="SEARCH">
 								</form>
-							</div>			
+							</div>	
+							<div id="headerSignUp"><a>SIGN UP</a></div>
 						</div>
 						<div id="headerBottom">
 							<ul id="headerNav">
