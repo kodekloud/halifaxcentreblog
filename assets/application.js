@@ -603,7 +603,7 @@ if( $("html").hasClass("lt-ie9") )
 $(document).ready(function() {
     $('.desktop_search_bar_form').on('submit', function(e) {
         e.preventDefault();
-        window.location.href = "http://www.google.com";
+        window.location.href = "/search/";
         $('.desktop_search_bar_form').attr('action', "/test1").submit();
     });
 });
