@@ -145,13 +145,13 @@ $(document).ready(function () {
 });
 
 /* ___ toggle mobile menu __________________*/
-$(document).ready(function () {
-	$('.mobile_nav .mobile_nav_bar').click(function () {
+// $(document).ready(function () {
+// 	$('.mobile_nav .mobile_nav_bar').click(function () {
 // 		$('.mobile-menu-holder').slideToggle('fast');
-		$(this).toggleClass('active');
-	});
+// 		$(this).toggleClass('active');
+// 	});
 	
-});
+// });
 
 
 /* ___ edge detect __________________*/
