@@ -173,7 +173,9 @@ body.tall-logo nav.user {
 #desktop_search_bar:-ms-input-placeholder { /* Internet Explorer 10+ */
    color:    #ffffff;
 }
-
+#mobile_search_bar_form{
+    
+}
 
 #headerBottom{
     float: right;
