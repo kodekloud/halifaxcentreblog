@@ -87,7 +87,7 @@
     .media-panel3 a{
         width: 30px;
         display: block;
-        padding: 20px;
+        padding: 15px;
     }
     ul.blogposts{
         margin:0;
