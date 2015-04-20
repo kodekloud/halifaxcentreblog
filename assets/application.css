@@ -712,7 +712,7 @@ body.tall-logo nav.user {
         top: 0;
     }
     .mobile_nav .mobile_nav_bar span {
-        display: block;
+        display: inline-block;
         width: 20px;
         height: 40px;
         padding: 0;
