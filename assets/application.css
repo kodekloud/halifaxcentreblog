@@ -126,7 +126,8 @@ body.tall-logo nav.user {
 
 #headerTop{
     float: right;
-    padding-bottom: 37px;
+    padding-bottom: 42px;
+    margin-top: -5px;
 }
 #headerSignUp{
     font-size: 9pt;
