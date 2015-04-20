@@ -138,7 +138,7 @@ body.tall-logo nav.user {
 #desktop_search_bar {
     top:0;
     left:0;
-    
+    position:absolute;
     border-radius: 0px;
     border-width: 0px;
     background: url(http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/search_icon.png) right center no-repeat;
