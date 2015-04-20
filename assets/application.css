@@ -3173,7 +3173,6 @@ h2,  h3 { page-break-after: avoid; }
 }
 .media-detail-nav a:nth-of-type(1){
     text-decoration: none;
-    float: left;
     background-image: url('http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/arrowblack_left.png');
     background-position: left;
     background-repeat: no-repeat;
