@@ -711,7 +711,7 @@ body.tall-logo nav.user {
         right: 5px;
         top: 0;
     }
-    .mobile_nav a span {
+    .mobile_nav .mobile_nav_bar span {
         display: block;
         width: 20px;
         height: 40px;
@@ -722,11 +722,11 @@ body.tall-logo nav.user {
         background: url(../images/navtriggerbg.) -20px 50% no-repeat;
     }
     
-    .mobile_nav a.active span {
+    .mobile_nav .mobile_nav_bar.active span {
         background-position: -60px 50%;
     }
     
-    .mobile_nav a {
+    .mobile_nav .mobile_nav_bar {
         color: #fff;
         text-decoration: none;
         display: block;
@@ -737,7 +737,7 @@ body.tall-logo nav.user {
         position: relative;
         z-index: 2000;
     }
-    .mobile_nav a:hover{
+    .mobile_nav .mobile_nav_bar:hover{
         color:#ffffff;
     }
     
