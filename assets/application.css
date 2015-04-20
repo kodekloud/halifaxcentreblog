@@ -3177,6 +3177,10 @@ h2,  h3 { page-break-after: avoid; }
 .media-detail-nav a:nth-of-type(2){
     text-decoration: none;
     float:right;
+    background-image: url('http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/a4f210f3e9502396b14baeff5101625d/arrowblack_right.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 16px;
 }
 @media only screen and (max-width: 767px) {
     .sparkNowTile{
