@@ -3145,6 +3145,9 @@ h2,  h3 { page-break-after: avoid; }
     #main-content{
         /*padding-top:24px;*/
     }
+    .short_headline{
+        margin-bottom:0 0 6px 0;
+    }
     .entry-header h1{
         font-size:16pt;
     }
