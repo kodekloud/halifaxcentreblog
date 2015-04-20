@@ -40,10 +40,10 @@
 $(document).ready(function() {
     function renderPageData(){
         var pathArray = window.location.pathname.split( '/' );
-        var category = pathArray[pathArray.length-1];
-        category = category.replace("%20"," ");
+        var keyword = pathArray[pathArray.length-1];
+        keyword = keyword.replace("%20"," ");
 
-        renderPostTileTemplate('#blog_tile_template', '#main-content',getPostsByTag(category));
+        renderPostTileTemplate('#blog_tile_template', '#main-content',getPostsByKeyword(keyword));
     }
     
     loadMallData(renderPageData);
