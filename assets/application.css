@@ -3156,7 +3156,7 @@ h2,  h3 { page-break-after: avoid; }
     .sparkNowTileTitle{
         width:100%;
         margin:0;
-        padding:0;
+        padding: 0 0 10px 0;
     }
     .sparkNowTileRead{
         position: relative;
