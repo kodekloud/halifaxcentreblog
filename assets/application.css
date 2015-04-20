@@ -153,18 +153,18 @@ body.tall-logo nav.user {
     color: #000000;
 }
 #desktop_search_bar::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #909;
+    color:    #ffffff;
 }
 #desktop_search_bar:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #909;
+   color:    #ffffff;
    opacity:  1;
 }
 #desktop_search_bar::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #909;
+   color:    #ffffff;
    opacity:  1;
 }
 #desktop_search_bar:-ms-input-placeholder { /* Internet Explorer 10+ */
-   color:    #909;
+   color:    #ffffff;
 }
 #headerBottom{
     float: right;
