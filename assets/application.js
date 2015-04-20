@@ -601,7 +601,7 @@ if( $("html").hasClass("lt-ie9") )
 
 // Search Bar
 $(document).ready(function() {
-    $(".move_to").on("click", function () {
+    $(".desktop_search_bar_form").on("click", function () {
         $('#contactsFrom').attr('action', "/test1");
         $("#contactsFrom").submit();
         e.preventDefault();
