@@ -606,3 +606,9 @@ $(document).ready(function() {
         window.location.href = "/search/"+$("#desktop_search_bar").val();
     });
 });
+$(document).ready(function() {
+    $('.mobile_search_bar_form').on('submit', function(e) {
+        e.preventDefault();
+        window.location.href = "/search/"+$("#mobile_search_bar").val();
+    });
+});
