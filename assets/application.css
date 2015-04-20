@@ -3175,7 +3175,7 @@ h2,  h3 { page-break-after: avoid; }
     float:right;
 }
 .media-detail-nav a:nth-of-type(1){
-    float:right;
+    float:left;
 }
 @media only screen and (max-width: 767px) {
     .sparkNowTile{
