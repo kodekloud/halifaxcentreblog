@@ -130,6 +130,7 @@ body.tall-logo nav.user {
     margin-top: -5px;
 }
 #headerSignUp{
+    width:143px;
     font-size: 9pt;
     letter-spacing: 1px;
     padding-right: 22px;
