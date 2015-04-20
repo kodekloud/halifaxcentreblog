@@ -737,6 +737,9 @@ body.tall-logo nav.user {
         position: relative;
         z-index: 2000;
     }
+    .mobile_nav a:hover{
+        color:#ffffff;
+    }
     
     .no-js .mobile_nav {
         display: none;
