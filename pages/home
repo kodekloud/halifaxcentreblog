@@ -85,9 +85,9 @@
 <script>
 $(document).ready(function() {
     function renderPageData(){
+                loadSlider();
         renderPostSliderTemplate('#blog_banner_template', '#blog_banner',getPostList());
         renderPostTileTemplate('#blog_tile_template', '#main-content',getPostList());
-        loadSlider();
     }
     
     loadMallData(renderPageData);
