@@ -89,8 +89,6 @@ $(document).ready(function() {
         renderPostTileTemplate('#blog_tile_template', '#main-content',getPostList());
         imagesLoadedEvent("img",loadSlider);
     }
-    
-    console.log("READY");
     loadMallData(renderPageData);
 });
 
@@ -98,8 +96,6 @@ $(document).ready(function() {
 
 
 function loadSlider(){
-    console.log("SLIDER READY");
-
     $( '.lemmon-slider' ).lemmonSlider({
 		infinite: true
 	});
