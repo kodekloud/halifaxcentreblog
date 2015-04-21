@@ -95,6 +95,8 @@ $(document).ready(function() {
 });
 
 function loadSlider(){
+        console.log("SLIDER READY");
+
     $( '.lemmon-slider' ).lemmonSlider({
 		infinite: true
 	});
