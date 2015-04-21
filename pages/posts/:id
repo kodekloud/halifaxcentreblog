@@ -81,7 +81,7 @@
                                 <div id="tab-latest">
                                     <ul class="blogposts clearfix">
                                         {{#.}}
-                                            <li class="active"> 
+                                            <li> 
                                                 <span class="date"> 
                                                     <span class="month">{{publish_date_month}}</span> 
                                                     <span class="day" style="font-size:11.43px;"><b>{{publish_date_day}}</b></span> 
