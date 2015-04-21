@@ -94,6 +94,14 @@ $(document).ready(function() {
     loadMallData(renderPageData);
 });
 
+
+
+jQuery(window).load(function() {
+    console.log("page finished loading now.");
+});
+
+
+
 function loadSlider(){
     console.log("SLIDER READY");
 
