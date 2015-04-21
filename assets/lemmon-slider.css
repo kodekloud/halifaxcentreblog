@@ -221,11 +221,11 @@
 .prev-slide,
 .next-slide{
     background-image:url(http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/d9d238e550d03b7ca655a3ce70a500ed/icon_left.png);
-			-moz-background-size:360px 100px; 
-             -ie-background-size:360px 100px;
-              -o-background-size:360px 100px;
-       	 -webkit-background-size:360px 100px;
-                 background-size:360px 100px;
+			-moz-background-size:45px 45px; 
+             -ie-background-size:45px 45px;
+              -o-background-size:45px 45px;
+       	 -webkit-background-size:45px 45px;
+                 background-size:45px 45px;
 
 } 
 
