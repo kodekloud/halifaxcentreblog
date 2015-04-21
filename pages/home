@@ -180,7 +180,7 @@ function renderPostTileTemplate(blog_template, blog_block, post){
         
         var blog_rendered = Mustache.render(blog_template_html,val);
         
-        $('.lemmon-slider').lemmonSlider('addItem', {item: $('input#addItem2').val()});
+        $('.lemmon-slider').lemmonSlider('addItem', blog_rendered);
 
         item_rendered.push(blog_rendered);
     });
