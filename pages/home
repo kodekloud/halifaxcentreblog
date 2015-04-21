@@ -90,10 +90,6 @@ $(document).ready(function() {
         
         // $( '.lemmon-slider' ).lemmonSlider();
         setInterval(function () {$( '.lemmon-slider' ).lemmonSlider()}, 500);
-        
-
-        // $('#loading').hide();
-        // $('#page_content').fadeIn('fast');
     }
     
     loadMallData(renderPageData);
