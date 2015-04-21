@@ -87,7 +87,7 @@ $(document).ready(function() {
     function renderPageData(){
         renderPostSliderTemplate('#blog_banner_template', '#blog_banner',getPostList());
         renderPostTileTemplate('#blog_tile_template', '#main-content',getPostList());
-        setInterval(loadSlider(), 3000);
+        setInterval(loadSlider(), 1000);
     }
     
     loadMallData(renderPageData);
