@@ -16,9 +16,9 @@
 			<a href="/posts/{{slug}}"> 
 				<img src="{{ image_url }}" alt="" />
 			</a> 
-			{{#hot_stories}}
-            	<a href="/categories/hot%20stories" class="sparkNowTileTag">HOT STORIES</a>
-            {{/hot_stories}}
+			{{#great_news}}
+            	<a href="/categories/great%20news" class="sparkNowTileTag">GREAT NEWS</a>
+            {{/great_news}}
 			<div class="summary"> 
 				<a href="/posts/{{slug}}"> 
 					<p>{{ tag_first }}</p>
@@ -122,7 +122,7 @@ function renderPostSliderTemplate(blog_template, blog_block, post){
             val.tag_first = val.tag[0];
         }
         if($.inArray('hot stories', val.tag) > -1){
-            val.hot_stories = 1;
+            val.great_news = 1;
         }
         item_list.push(val);
     });
