@@ -83,8 +83,6 @@
                                         {{#.}}
                                             <li> 
                                                 
-                                                <h3><a href="/posts/{{slug}}" title="{{ title }}">{{ title }}</a></h3>
-                                                <p></p>
                                             </li>
                                         {{/.}}
                                     </ul>
