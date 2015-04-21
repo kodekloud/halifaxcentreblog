@@ -179,6 +179,9 @@ function renderPostTileTemplate(blog_template, blog_block, post){
         if (index >= showingPosts) {return false;};
         
         var blog_rendered = Mustache.render(blog_template_html,val);
+        
+        $('.lemmon-slider').lemmonSlider('addItem', {item: $('input#addItem2').val()});
+
         item_rendered.push(blog_rendered);
     });
     $(blog_block).html(item_rendered.join(''));
