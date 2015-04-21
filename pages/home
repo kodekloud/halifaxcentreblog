@@ -94,6 +94,10 @@ $(document).ready(function() {
     
     loadMallData(renderPageData);
 });
+
+function loadSlider(){
+    $( '.lemmon-slider' ).lemmonSlider();
+}
 var interval = 4;
 var totalPosts;
 var showingPosts;
