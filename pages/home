@@ -136,7 +136,7 @@ function renderPostSliderTemplate(blog_template, blog_block, post){
         var blog_rendered = Mustache.render(blog_template_html,val);
         item_rendered.push(blog_rendered);
         
-        $('#slider2').lemmonSlider('addItem', {item: $('input#addItem2').val()});
+        $('.lemmon-slider').lemmonSlider('addItem', {item: blog_rendered});
     });
     $(blog_block).html(item_rendered.join(''));
 }
