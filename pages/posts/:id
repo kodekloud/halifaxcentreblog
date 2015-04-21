@@ -80,6 +80,7 @@
                             <div class="panels">
                                 <div id="tab-latest">
                                     <ul class="blogposts clearfix">
+                                        <li></li>
                                         {{#.}}
                                             <li> 
                                                 <span class="date"> 
