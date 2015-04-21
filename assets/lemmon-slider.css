@@ -152,10 +152,10 @@
     /* hides the hover captions on mobile */
     .lemmon-slider li div.summary,
     .lemmon-slider li:hover div.summary { display: none }
-    /*.prev-slide,*/
-    /*.next-slide {*/
-    /*    display: none;*/
-    /*}*/
+    .prev-slide, .next-slide {
+      width: 45px;
+      background-position: 0px 50%;
+    }
 } /* end */
 
 @media only screen and (min-width: 321px) and (max-width:767px) { 
@@ -166,10 +166,10 @@
     /* hides the hover captions on mobile */
     .lemmon-slider li div,
     .lemmon-slider li:hover div { display: none!important }
-    /*.prev-slide,*/
-    /*.next-slide {*/
-    /*    display: none;*/
-    /*}*/
+    .prev-slide, .next-slide {
+      width: 45px;
+      background-position: 0px 50%;
+    }
 
 } /* end */
 
