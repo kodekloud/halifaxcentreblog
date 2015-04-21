@@ -430,12 +430,12 @@ $(document).ready(function () {
 
 /* ________  content and sidebar tabs __________________*/
 
-$(document).ready(function () {
-	$('.sidebar-tabs, .content-tabs').easytabs({
-		transitionIn: 'slideDown',
-		updateHash: false
-	});
-});
+// $(document).ready(function () {
+// 	$('.sidebar-tabs, .content-tabs').easytabs({
+// 		transitionIn: 'slideDown',
+// 		updateHash: false
+// 	});
+// });
 
 
 /* ________  fade all but hovered __________________*/
