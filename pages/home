@@ -90,6 +90,7 @@ $(document).ready(function() {
         setInterval(loadSlider(), 1000);
     }
     
+    console.log("READY");
     loadMallData(renderPageData);
 });
 
