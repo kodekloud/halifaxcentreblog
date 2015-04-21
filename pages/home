@@ -95,7 +95,7 @@ $(document).ready(function() {
 
 function loadSlider(){
     $( '.lemmon-slider' ).lemmonSlider({
-// 		infinite: true
+		infinite: true
 	});
 }
 var interval = 4;
