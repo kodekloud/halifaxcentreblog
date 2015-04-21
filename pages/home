@@ -94,7 +94,9 @@ $(document).ready(function() {
 });
 
 function loadSlider(){
-    $( '.lemmon-slider' ).lemmonSlider();
+    $( '.lemmon-slider' ).lemmonSlider({
+		infinite: true
+	});
 }
 var interval = 4;
 var totalPosts;
