@@ -118,14 +118,14 @@ function imagesLoadedEvent(selector, callback) {
             This.nrImagesLoaded++;
         }
         if (This.nrImagesToLoad == This.nrImagesLoaded) {
-            callback(This.images);
+            callback();
         }
     });
 
     this.images.load(function (evt) {
         This.nrImagesLoaded++;
         if (This.nrImagesToLoad == This.nrImagesLoaded) {
-            callback(This.images);
+            callback();
         }
     });
 }
