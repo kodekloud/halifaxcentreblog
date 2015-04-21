@@ -72,7 +72,7 @@
                     </section>
                 </script>
             </div>
-            <div class="span3 sidebar secondary-column" id="secondary-nav">
+            <section class="span3 sidebar secondary-column" id="secondary-nav">
                 <aside class="widget">
                     <h5 class="short_headline"><span><b>LATEST</b>POSTS</span></h5>
                     <div class="sidebar-tabs" id="blog_detail_container_3"></div>
@@ -95,7 +95,7 @@
                             </div>
                         </script>
                 </aside>
-            </div>
+            </section>
         </div>
     </div>
 
