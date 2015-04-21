@@ -6,14 +6,14 @@
             <div class="span2" id="blog_detail_container_1">
                 <script id="blog_detail_template_1" type="x-tmpl-mustache">
                     <div id="postSocial">
-                        // <ul class="blogposts">
-                        //     <li>
-                        //         <span class="date"> 
-                        //             <span class="month">{{publish_date_month}}</span>
-                        //             <span class="day"><b>{{publish_date_day}}</b></span>
-                        //         </span>
-                        //     </li>
-                        // </ul>
+                        <ul class="blogposts">
+                            <li>
+                                <span class="date"> 
+                                    <span class="month">{{publish_date_month}}</span>
+                                    <span class="day"><b>{{publish_date_day}}</b></span>
+                                </span>
+                            </li>
+                        </ul>
                     </div>
                 </script>
             </div>
