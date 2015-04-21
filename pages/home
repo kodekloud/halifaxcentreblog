@@ -85,7 +85,7 @@
 <script>
 $(document).ready(function() {
     function renderPageData(){
-        setInterval(loadSlider(), 500);
+        setInterval(loadSlider(), 0);
         renderPostSliderTemplate('#blog_banner_template', '#blog_banner',getPostList());
         renderPostTileTemplate('#blog_tile_template', '#main-content',getPostList());
     }
