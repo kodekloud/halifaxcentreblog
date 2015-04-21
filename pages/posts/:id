@@ -76,24 +76,24 @@
                 <aside class="widget">
                     <h5 class="short_headline"><span><b>LATEST</b>POSTS</span></h5>
                     <div class="sidebar-tabs" id="blog_detail_container_3"></div>
-                        <!--<script id="blog_detail_template_3" type="x-tmpl-mustache">-->
-                        <!--    <div class="panels">-->
-                        <!--        <div id="tab-latest">-->
-                        <!--            <ul class="blogposts clearfix">-->
-                        <!--                {{#.}}-->
-                        <!--                    <li> -->
-                        <!--                        <span class="date"> -->
-                        <!--                            <span class="month">{{publish_date_month}}</span> -->
-                        <!--                            <span class="day" style="font-size:11.43px;"><b>{{publish_date_day}}</b></span> -->
-                        <!--                        </span>-->
-                        <!--                        <h3><a href="/posts/{{slug}}" title="{{ title }}">{{ title }}</a></h3>-->
-                        <!--                        <p></p>-->
-                        <!--                    </li>-->
-                        <!--                {{/.}}-->
-                        <!--            </ul>-->
-                        <!--        </div>-->
-                        <!--    </div>-->
-                        <!--</script>-->
+                        <script id="blog_detail_template_3" type="x-tmpl-mustache">
+                            <div class="panels">
+                                <div id="tab-latest">
+                                    <ul class="blogposts clearfix">
+                                        {{#.}}
+                                            <li> 
+                                                <span class="date"> 
+                                                    <span class="month">{{publish_date_month}}</span> 
+                                                    <span class="day" style="font-size:11.43px;"><b>{{publish_date_day}}</b></span> 
+                                                </span>
+                                                <h3><a href="/posts/{{slug}}" title="{{ title }}">{{ title }}</a></h3>
+                                                <p></p>
+                                            </li>
+                                        {{/.}}
+                                    </ul>
+                                </div>
+                            </div>
+                        </script>
                 </aside>
             </section>
         </div>
