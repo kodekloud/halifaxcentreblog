@@ -92,17 +92,15 @@ $(document).ready(function() {
     
     console.log("READY");
     loadMallData(renderPageData);
-    
-    function loadSlider(){
+});
+
+function loadSlider(){
     console.log("SLIDER READY");
 
     $( '.lemmon-slider' ).lemmonSlider({
 		infinite: true
 	});
 }
-});
-
-
 var interval = 4;
 var totalPosts;
 var showingPosts;
