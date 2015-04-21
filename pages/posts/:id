@@ -163,7 +163,7 @@
             });
         }
         
-        // loadMallData(renderPageData);
+        loadMallData(renderPageData);
     });
     
     function renderPostDetailTemplate(blog_detail_template, blog_block, post){
