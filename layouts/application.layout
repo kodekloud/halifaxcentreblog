@@ -28,14 +28,14 @@
 
         <!-- Icons ================ -->
 		<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-		<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
+		<!--<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />-->
 		<!-- For first- and second-generation iPad: -->
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png" />
+		<!--<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png" />-->
 		<!-- For iPhone with high-resolution Retina display: -->
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png" />
+		<!--<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png" />-->
 		<!-- For third-generation iPad with high-resolution Retina display: -->
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png" />
-		<link rel="shortcut icon" href="favicon.ico" />
+		<!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png" />-->
+		<link rel="shortcut icon" href="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/cd42121224f9ee5efcf3f7f7a81f41d4/favicon_16.ico" />
 
 		<!-- SCRIPTS ============================================== -->
         <!--	NOTE:: jquery 1.9.1 supports older ie, 2.0 does not, but 1.9.1 does not work well on ie8 and 
